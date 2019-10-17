@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_da17c9613e5347628659175fe417fc21 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_da17c9613e5347628659175fe417fc21" ></div>
+        
+</body>
+<script>    
+    
+            var map_da17c9613e5347628659175fe417fc21 = L.map(
+                "map_da17c9613e5347628659175fe417fc21",
+                {
+                    center: [37.7792808, -122.4192363],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f939146b0db4385840c483f48df3ace = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+            var circle_marker_6dee125f344f466a8485a09658e4bf47 = L.circleMarker(
+                [37.807762700000005, -122.4132217],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_4e9b9d8dc0bd49edaf8e58de93f894c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcea9862897f4f3bb743556636a30c7d = $(`<div id="html_bcea9862897f4f3bb743556636a30c7d" style="width: 100.0%; height: 100.0%;">Hotel Zephyr, Hotel</div>`)[0];
+            popup_4e9b9d8dc0bd49edaf8e58de93f894c7.setContent(html_bcea9862897f4f3bb743556636a30c7d);
+        
+
+        circle_marker_6dee125f344f466a8485a09658e4bf47.bindPopup(popup_4e9b9d8dc0bd49edaf8e58de93f894c7)
+        ;
+
+        
+    
+    
+            var circle_marker_662257dcd56f4963ab7dabd84945cdbc = L.circleMarker(
+                [37.80757, -122.42015],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_2591b8ceed7847da9d24def6b4bbe1fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54ed425dc0224154976fb3943480decd = $(`<div id="html_54ed425dc0224154976fb3943480decd" style="width: 100.0%; height: 100.0%;">Argonaut Hotel, Hotel, Event Space, Meeting Room</div>`)[0];
+            popup_2591b8ceed7847da9d24def6b4bbe1fc.setContent(html_54ed425dc0224154976fb3943480decd);
+        
+
+        circle_marker_662257dcd56f4963ab7dabd84945cdbc.bindPopup(popup_2591b8ceed7847da9d24def6b4bbe1fc)
+        ;
+
+        
+    
+    
+            var circle_marker_fa147a762717476499eb18b5645f6836 = L.circleMarker(
+                [37.807164723501714, -122.41831809282304],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_ea7263e8e9314e0484822176de6cef47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3f798bfacb44f2fb026182436de3a3e = $(`<div id="html_b3f798bfacb44f2fb026182436de3a3e" style="width: 100.0%; height: 100.0%;">Courtyard San Francisco Fisherman&#39;s Wharf, Hotel</div>`)[0];
+            popup_ea7263e8e9314e0484822176de6cef47.setContent(html_b3f798bfacb44f2fb026182436de3a3e);
+        
+
+        circle_marker_fa147a762717476499eb18b5645f6836.bindPopup(popup_ea7263e8e9314e0484822176de6cef47)
+        ;
+
+        
+    
+    
+            var circle_marker_c476907bef0849889431da96b20c2da8 = L.circleMarker(
+                [37.80712235888355, -122.42867511769722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_2c7a161c246e4b83a41219ee4c48b41b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aec278287b8440118d52a20eac6c697a = $(`<div id="html_aec278287b8440118d52a20eac6c697a" style="width: 100.0%; height: 100.0%;">Hosteling International, Hostel</div>`)[0];
+            popup_2c7a161c246e4b83a41219ee4c48b41b.setContent(html_aec278287b8440118d52a20eac6c697a);
+        
+
+        circle_marker_c476907bef0849889431da96b20c2da8.bindPopup(popup_2c7a161c246e4b83a41219ee4c48b41b)
+        ;
+
+        
+    
+    
+            var circle_marker_db1c377d5d5e4ed9b82058adbead47c7 = L.circleMarker(
+                [37.8055096049692, -122.42330802880801],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_c218fdc13876483e950ed7bf8de24857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_764aa5907e524506a2c997118d076f57 = $(`<div id="html_764aa5907e524506a2c997118d076f57" style="width: 100.0%; height: 100.0%;">Fairmont Heritage Place, Hotel, Resort, Residential Building (Apartment / Condo)</div>`)[0];
+            popup_c218fdc13876483e950ed7bf8de24857.setContent(html_764aa5907e524506a2c997118d076f57);
+        
+
+        circle_marker_db1c377d5d5e4ed9b82058adbead47c7.bindPopup(popup_c218fdc13876483e950ed7bf8de24857)
+        ;
+
+        
+    
+    
+            var circle_marker_fa24ec7fbd7245da84ed677010a0ea29 = L.circleMarker(
+                [37.805436256264684, -122.41689404319904],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_fd5ab436d9b445b98c2c1202dfc7e62d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c723b29adb64cbdb909db7dae7857d6 = $(`<div id="html_7c723b29adb64cbdb909db7dae7857d6" style="width: 100.0%; height: 100.0%;">Pier 2620 Hotel, Hotel</div>`)[0];
+            popup_fd5ab436d9b445b98c2c1202dfc7e62d.setContent(html_7c723b29adb64cbdb909db7dae7857d6);
+        
+
+        circle_marker_fa24ec7fbd7245da84ed677010a0ea29.bindPopup(popup_fd5ab436d9b445b98c2c1202dfc7e62d)
+        ;
+
+        
+    
+    
+            var circle_marker_d7f6ec39eead43c79283cb67e07ee27d = L.circleMarker(
+                [37.798072162046594, -122.40533981694207],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_9c996af39ed14d52b43a0c7e10da19a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a45f99e9bc1f44489c4c0413be59ccba = $(`<div id="html_a45f99e9bc1f44489c4c0413be59ccba" style="width: 100.0%; height: 100.0%;">Green Tortoise Hostel, Hostel</div>`)[0];
+            popup_9c996af39ed14d52b43a0c7e10da19a2.setContent(html_a45f99e9bc1f44489c4c0413be59ccba);
+        
+
+        circle_marker_d7f6ec39eead43c79283cb67e07ee27d.bindPopup(popup_9c996af39ed14d52b43a0c7e10da19a2)
+        ;
+
+        
+    
+    
+            var circle_marker_0b892a481fb046479b4e4ccaef144934 = L.circleMarker(
+                [37.79467760487772, -122.40089178085329],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_36b5f3631cce45b9a2ee006a67a99a23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f6f494435da48d89e3612b31421a5a9 = $(`<div id="html_8f6f494435da48d89e3612b31421a5a9" style="width: 100.0%; height: 100.0%;">Le Méridien, Hotel</div>`)[0];
+            popup_36b5f3631cce45b9a2ee006a67a99a23.setContent(html_8f6f494435da48d89e3612b31421a5a9);
+        
+
+        circle_marker_0b892a481fb046479b4e4ccaef144934.bindPopup(popup_36b5f3631cce45b9a2ee006a67a99a23)
+        ;
+
+        
+    
+    
+            var circle_marker_85f691ec215245da84f769b894c2f90c = L.circleMarker(
+                [37.79444906186079, -122.39592515068401],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_e5643a138b3b4997a447df7d4bf8362d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_574e3422dab143b5a7ed19bd73c5aa30 = $(`<div id="html_574e3422dab143b5a7ed19bd73c5aa30" style="width: 100.0%; height: 100.0%;">The Eclipse Kitchen and Bar, Hotel Bar, Breakfast Spot, Cocktail Bar</div>`)[0];
+            popup_e5643a138b3b4997a447df7d4bf8362d.setContent(html_574e3422dab143b5a7ed19bd73c5aa30);
+        
+
+        circle_marker_85f691ec215245da84f769b894c2f90c.bindPopup(popup_e5643a138b3b4997a447df7d4bf8362d)
+        ;
+
+        
+    
+    
+            var circle_marker_d0b8248eb55d46f8882fba35fa5c8035 = L.circleMarker(
+                [37.79435070814997, -122.39593460244198],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_c00f8c84c14249fe8edaaccf96e30f62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af550b3edad8476aa8b1b584adaf6933 = $(`<div id="html_af550b3edad8476aa8b1b584adaf6933" style="width: 100.0%; height: 100.0%;">Hyatt Regency San Francisco, Hotel, Parking</div>`)[0];
+            popup_c00f8c84c14249fe8edaaccf96e30f62.setContent(html_af550b3edad8476aa8b1b584adaf6933);
+        
+
+        circle_marker_d0b8248eb55d46f8882fba35fa5c8035.bindPopup(popup_c00f8c84c14249fe8edaaccf96e30f62)
+        ;
+
+        
+    
+    
+            var circle_marker_837f301b804243eaa4e55c567a751ee3 = L.circleMarker(
+                [37.7936107, -122.3929804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_6ea772c7fd27451eb4e5b22a2c2d753c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a8c51b35bd24506a907527bd3ab3310 = $(`<div id="html_3a8c51b35bd24506a907527bd3ab3310" style="width: 100.0%; height: 100.0%;">Hotel Vitale, Hotel, Spa, Meeting Room</div>`)[0];
+            popup_6ea772c7fd27451eb4e5b22a2c2d753c.setContent(html_3a8c51b35bd24506a907527bd3ab3310);
+        
+
+        circle_marker_837f301b804243eaa4e55c567a751ee3.bindPopup(popup_6ea772c7fd27451eb4e5b22a2c2d753c)
+        ;
+
+        
+    
+    
+            var circle_marker_16faa0578c744a4aa38236872cc55425 = L.circleMarker(
+                [37.79311974595745, -122.4031025916338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_335cceca45d8431ebb325a9c03129fee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64107e1bc7aa488fa553270d235e2e6e = $(`<div id="html_64107e1bc7aa488fa553270d235e2e6e" style="width: 100.0%; height: 100.0%;">Omni San Francisco Hotel, Hotel</div>`)[0];
+            popup_335cceca45d8431ebb325a9c03129fee.setContent(html_64107e1bc7aa488fa553270d235e2e6e);
+        
+
+        circle_marker_16faa0578c744a4aa38236872cc55425.bindPopup(popup_335cceca45d8431ebb325a9c03129fee)
+        ;
+
+        
+    
+    
+            var circle_marker_91f7acbb824341fd9161eafd7f82a2a8 = L.circleMarker(
+                [37.7925127033108, -122.40078082051477],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_07c5d5b427e64ed3932190c4d9703f64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ef868280714f5185c6e6e9ea1e0863 = $(`<div id="html_97ef868280714f5185c6e6e9ea1e0863" style="width: 100.0%; height: 100.0%;">Loews Regency San Francisco, Hotel, Resort, Meeting Room</div>`)[0];
+            popup_07c5d5b427e64ed3932190c4d9703f64.setContent(html_97ef868280714f5185c6e6e9ea1e0863);
+        
+
+        circle_marker_91f7acbb824341fd9161eafd7f82a2a8.bindPopup(popup_07c5d5b427e64ed3932190c4d9703f64)
+        ;
+
+        
+    
+    
+            var circle_marker_5fe95b8396de46f497ce06ae87473543 = L.circleMarker(
+                [37.792298167066434, -122.41054313133543],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_9148cd206c88421aa9ae69339ce5cc5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b18b1424f0a34e909d70627aaa1c7716 = $(`<div id="html_b18b1424f0a34e909d70627aaa1c7716" style="width: 100.0%; height: 100.0%;">The Fairmont San Francisco, Hotel</div>`)[0];
+            popup_9148cd206c88421aa9ae69339ce5cc5a.setContent(html_b18b1424f0a34e909d70627aaa1c7716);
+        
+
+        circle_marker_5fe95b8396de46f497ce06ae87473543.bindPopup(popup_9148cd206c88421aa9ae69339ce5cc5a)
+        ;
+
+        
+    
+    
+            var circle_marker_67583ae7d71d49ff81d10004442bc970 = L.circleMarker(
+                [37.792261319862405, -122.40963578224182],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_570e7b36e21841749efc6ebcce9d4797 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f42ca102506420e8940186125ea6090 = $(`<div id="html_2f42ca102506420e8940186125ea6090" style="width: 100.0%; height: 100.0%;">Tonga Room &amp; Hurricane Bar, Tiki Bar, Asian Restaurant, Hotel Bar</div>`)[0];
+            popup_570e7b36e21841749efc6ebcce9d4797.setContent(html_2f42ca102506420e8940186125ea6090);
+        
+
+        circle_marker_67583ae7d71d49ff81d10004442bc970.bindPopup(popup_570e7b36e21841749efc6ebcce9d4797)
+        ;
+
+        
+    
+    
+            var circle_marker_66354d2546fc4b50a3b0f10733320bfb = L.circleMarker(
+                [37.791812, -122.407101],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_2fdf6fc9a918473e96a5e9f11016e078 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1872fab1a5e7457ab7462048e83223f5 = $(`<div id="html_1872fab1a5e7457ab7462048e83223f5" style="width: 100.0%; height: 100.0%;">The Ritz-Carlton, San Francisco, Hotel</div>`)[0];
+            popup_2fdf6fc9a918473e96a5e9f11016e078.setContent(html_1872fab1a5e7457ab7462048e83223f5);
+        
+
+        circle_marker_66354d2546fc4b50a3b0f10733320bfb.bindPopup(popup_2fdf6fc9a918473e96a5e9f11016e078)
+        ;
+
+        
+    
+    
+            var circle_marker_068daa1b0ced496f8d7244780b5e42a7 = L.circleMarker(
+                [37.791773814362, -122.41055419344325],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_be6822db6e004aaf8e5d7a6556a34e35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3abfb7c25774191b9a20e66b0a39bf6 = $(`<div id="html_b3abfb7c25774191b9a20e66b0a39bf6" style="width: 100.0%; height: 100.0%;">InterContinental Mark Hopkins, Hotel, Event Space</div>`)[0];
+            popup_be6822db6e004aaf8e5d7a6556a34e35.setContent(html_b3abfb7c25774191b9a20e66b0a39bf6);
+        
+
+        circle_marker_068daa1b0ced496f8d7244780b5e42a7.bindPopup(popup_be6822db6e004aaf8e5d7a6556a34e35)
+        ;
+
+        
+    
+    
+            var circle_marker_9e3e6a7771b34dd6b76e3f957703e630 = L.circleMarker(
+                [37.791696176018206, -122.41220867451881],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_0a94bd699be7457ebcb4c61cb524fdbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eed89eea302a4339bf0726786920326b = $(`<div id="html_eed89eea302a4339bf0726786920326b" style="width: 100.0%; height: 100.0%;">The Scarlet Huntington, Hotel</div>`)[0];
+            popup_0a94bd699be7457ebcb4c61cb524fdbe.setContent(html_eed89eea302a4339bf0726786920326b);
+        
+
+        circle_marker_9e3e6a7771b34dd6b76e3f957703e630.bindPopup(popup_0a94bd699be7457ebcb4c61cb524fdbe)
+        ;
+
+        
+    
+    
+            var circle_marker_38074abc0543460aa8d7e0749ed42c3e = L.circleMarker(
+                [37.79164819685559, -122.41213895650702],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_7dfe5704450d4e69a3c12b9a020c4656 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_300eed0bf50d449a870ed3d609e0bdeb = $(`<div id="html_300eed0bf50d449a870ed3d609e0bdeb" style="width: 100.0%; height: 100.0%;">Nob Hill Spa at The Scarlet Huntington, Spa, Hotel, Cosmetics Shop</div>`)[0];
+            popup_7dfe5704450d4e69a3c12b9a020c4656.setContent(html_300eed0bf50d449a870ed3d609e0bdeb);
+        
+
+        circle_marker_38074abc0543460aa8d7e0749ed42c3e.bindPopup(popup_7dfe5704450d4e69a3c12b9a020c4656)
+        ;
+
+        
+    
+    
+            var circle_marker_27e28da106e04a6bac300872a9a28b16 = L.circleMarker(
+                [37.791643593176865, -122.40964557904705],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_ae9bca30ddcb40bf9afb8fb737c9ac4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f1d7052632843fc9bef65c1451d0a50 = $(`<div id="html_2f1d7052632843fc9bef65c1451d0a50" style="width: 100.0%; height: 100.0%;">The Stanford Court San Francisco, Hotel</div>`)[0];
+            popup_ae9bca30ddcb40bf9afb8fb737c9ac4a.setContent(html_2f1d7052632843fc9bef65c1451d0a50);
+        
+
+        circle_marker_27e28da106e04a6bac300872a9a28b16.bindPopup(popup_ae9bca30ddcb40bf9afb8fb737c9ac4a)
+        ;
+
+        
+    
+    
+            var circle_marker_00c33ed4e9e74ad5820d2a4087208853 = L.circleMarker(
+                [37.791642010925415, -122.41059291081123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_ca4142850af0477b9d75afa4c79dd1a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f75824a9c97d4482924563f67152884f = $(`<div id="html_f75824a9c97d4482924563f67152884f" style="width: 100.0%; height: 100.0%;">Top of the Mark, Hotel Bar, Lounge, Cocktail Bar</div>`)[0];
+            popup_ca4142850af0477b9d75afa4c79dd1a7.setContent(html_f75824a9c97d4482924563f67152884f);
+        
+
+        circle_marker_00c33ed4e9e74ad5820d2a4087208853.bindPopup(popup_ca4142850af0477b9d75afa4c79dd1a7)
+        ;
+
+        
+    
+    
+            var circle_marker_68a573638dad421b8a6361028dee286a = L.circleMarker(
+                [37.7905631, -122.4070976],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_b716c31d95ea4983a276b1408c29e1f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e1780986868467aa9242daa216a8ba0 = $(`<div id="html_9e1780986868467aa9242daa216a8ba0" style="width: 100.0%; height: 100.0%;">WorldMark San Francisco, Hotel, Resort</div>`)[0];
+            popup_b716c31d95ea4983a276b1408c29e1f4.setContent(html_9e1780986868467aa9242daa216a8ba0);
+        
+
+        circle_marker_68a573638dad421b8a6361028dee286a.bindPopup(popup_b716c31d95ea4983a276b1408c29e1f4)
+        ;
+
+        
+    
+    
+            var circle_marker_1fb8006dfb2741d2b6d7c6d3ff4800bf = L.circleMarker(
+                [37.790178250566186, -122.408470043029],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_0243fa10710e4badb619e08987ee7ac0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_043b8981d74e45da9de271d06e92ceef = $(`<div id="html_043b8981d74e45da9de271d06e92ceef" style="width: 100.0%; height: 100.0%;">The Orchard Hotel, Hotel</div>`)[0];
+            popup_0243fa10710e4badb619e08987ee7ac0.setContent(html_043b8981d74e45da9de271d06e92ceef);
+        
+
+        circle_marker_1fb8006dfb2741d2b6d7c6d3ff4800bf.bindPopup(popup_0243fa10710e4badb619e08987ee7ac0)
+        ;
+
+        
+    
+    
+            var circle_marker_7601720e8492466581dd7e3d82337a97 = L.circleMarker(
+                [37.789910976350924, -122.4072329330642],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_063850422443496ab6048a487d02c0c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e71c5d934dc44f46afe1aa3272d85aa0 = $(`<div id="html_e71c5d934dc44f46afe1aa3272d85aa0" style="width: 100.0%; height: 100.0%;">Mystic Hotel, Hotel</div>`)[0];
+            popup_063850422443496ab6048a487d02c0c6.setContent(html_e71c5d934dc44f46afe1aa3272d85aa0);
+        
+
+        circle_marker_7601720e8492466581dd7e3d82337a97.bindPopup(popup_063850422443496ab6048a487d02c0c6)
+        ;
+
+        
+    
+    
+            var circle_marker_c485da2fe7e34906a0afe58565896309 = L.circleMarker(
+                [37.789823399495994, -122.40355621940505],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_683bf975de714c55b340e2f5e6a5fc54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e747854f94684aee90c4a5fc68709a76 = $(`<div id="html_e747854f94684aee90c4a5fc68709a76" style="width: 100.0%; height: 100.0%;">Gaspar Brasserie, French Restaurant, Hotel Bar</div>`)[0];
+            popup_683bf975de714c55b340e2f5e6a5fc54.setContent(html_e747854f94684aee90c4a5fc68709a76);
+        
+
+        circle_marker_c485da2fe7e34906a0afe58565896309.bindPopup(popup_683bf975de714c55b340e2f5e6a5fc54)
+        ;
+
+        
+    
+    
+            var circle_marker_1d114c4087a84891a64ff3ee75ed3f8c = L.circleMarker(
+                [37.78945705844771, -122.40923881530762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_6d0bb3a5205445a9a23ca54d9a12bd89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c77152a2d18e489693495e1f0790fb0d = $(`<div id="html_c77152a2d18e489693495e1f0790fb0d" style="width: 100.0%; height: 100.0%;">The Cartwright Hotel - Union Square, BW Premier Collection, Hotel</div>`)[0];
+            popup_6d0bb3a5205445a9a23ca54d9a12bd89.setContent(html_c77152a2d18e489693495e1f0790fb0d);
+        
+
+        circle_marker_1d114c4087a84891a64ff3ee75ed3f8c.bindPopup(popup_6d0bb3a5205445a9a23ca54d9a12bd89)
+        ;
+
+        
+    
+    
+            var circle_marker_a25ad0ffefc9486ebbfe26aece4b6dc7 = L.circleMarker(
+                [37.78913699, -122.4072003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_f8efb82a197c452491ca5abffd7c18eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7e48f969a3a4129a750c215676880ad = $(`<div id="html_c7e48f969a3a4129a750c215676880ad" style="width: 100.0%; height: 100.0%;">Grand Hyatt San Francisco, Hotel</div>`)[0];
+            popup_f8efb82a197c452491ca5abffd7c18eb.setContent(html_c7e48f969a3a4129a750c215676880ad);
+        
+
+        circle_marker_a25ad0ffefc9486ebbfe26aece4b6dc7.bindPopup(popup_f8efb82a197c452491ca5abffd7c18eb)
+        ;
+
+        
+    
+    
+            var circle_marker_9270ddcc25e64d1f9ee68e2f685cacdc = L.circleMarker(
+                [37.788995406062654, -122.40687447184708],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_f1a592db3e234486bd935eefb5ef1239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fd9661a171a4b2baebdb2344d24cc1d = $(`<div id="html_4fd9661a171a4b2baebdb2344d24cc1d" style="width: 100.0%; height: 100.0%;">Taj Campton Place, Hotel</div>`)[0];
+            popup_f1a592db3e234486bd935eefb5ef1239.setContent(html_4fd9661a171a4b2baebdb2344d24cc1d);
+        
+
+        circle_marker_9270ddcc25e64d1f9ee68e2f685cacdc.bindPopup(popup_f1a592db3e234486bd935eefb5ef1239)
+        ;
+
+        
+    
+    
+            var circle_marker_57b620329680452195a27f17855dabb9 = L.circleMarker(
+                [37.788971999999994, -122.408358],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_8d1e0175f9114a3d8894a71604854054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eefd87b38b04d8385edb9d2606c0c04 = $(`<div id="html_2eefd87b38b04d8385edb9d2606c0c04" style="width: 100.0%; height: 100.0%;">Kimpton Sir Francis Drake Hotel, Hotel, Meeting Room, Restaurant</div>`)[0];
+            popup_8d1e0175f9114a3d8894a71604854054.setContent(html_2eefd87b38b04d8385edb9d2606c0c04);
+        
+
+        circle_marker_57b620329680452195a27f17855dabb9.bindPopup(popup_8d1e0175f9114a3d8894a71604854054)
+        ;
+
+        
+    
+    
+            var circle_marker_6ee13eb5cba240518f81fc0d526a749d = L.circleMarker(
+                [37.788678000000004, -122.410458],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_50d6bd70af8d49828a6f953b765fc869 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f0835e741c84844a3cff933722333e5 = $(`<div id="html_3f0835e741c84844a3cff933722333e5" style="width: 100.0%; height: 100.0%;">Marines&#39; Memorial Club &amp; Hotel, Hotel, Event Space</div>`)[0];
+            popup_50d6bd70af8d49828a6f953b765fc869.setContent(html_3f0835e741c84844a3cff933722333e5);
+        
+
+        circle_marker_6ee13eb5cba240518f81fc0d526a749d.bindPopup(popup_50d6bd70af8d49828a6f953b765fc869)
+        ;
+
+        
+    
+    
+            var circle_marker_914aa6983f424f1f8738176fbf0ed963 = L.circleMarker(
+                [37.788599, -122.402019],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_687765db9b964c68906bf0de8ff94b57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5c69517fd5b46248160d7dc52a33758 = $(`<div id="html_d5c69517fd5b46248160d7dc52a33758" style="width: 100.0%; height: 100.0%;">Palace Hotel, Hotel</div>`)[0];
+            popup_687765db9b964c68906bf0de8ff94b57.setContent(html_d5c69517fd5b46248160d7dc52a33758);
+        
+
+        circle_marker_914aa6983f424f1f8738176fbf0ed963.bindPopup(popup_687765db9b964c68906bf0de8ff94b57)
+        ;
+
+        
+    
+    
+            var circle_marker_762635f26b7a4a0cb3a4e1c76bb1a56a = L.circleMarker(
+                [37.788390512659404, -122.40229701922706],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_db0ef4a6c62c45aa984b0d9c9d2762c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a455830cfa234b3d87b0c294518069d2 = $(`<div id="html_a455830cfa234b3d87b0c294518069d2" style="width: 100.0%; height: 100.0%;">Pied Piper Bar &amp; Grill, Hotel Bar</div>`)[0];
+            popup_db0ef4a6c62c45aa984b0d9c9d2762c5.setContent(html_a455830cfa234b3d87b0c294518069d2);
+        
+
+        circle_marker_762635f26b7a4a0cb3a4e1c76bb1a56a.bindPopup(popup_db0ef4a6c62c45aa984b0d9c9d2762c5)
+        ;
+
+        
+    
+    
+            var circle_marker_17e5e387caf444d8940670ef3e7e88aa = L.circleMarker(
+                [37.788347066477186, -122.41591377568876],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_d15ff48c5d5f48a3ad8b18d1c370d093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1010633838854ccebc874006912e928e = $(`<div id="html_1010633838854ccebc874006912e928e" style="width: 100.0%; height: 100.0%;">Hotel Vertigo, Hotel</div>`)[0];
+            popup_d15ff48c5d5f48a3ad8b18d1c370d093.setContent(html_1010633838854ccebc874006912e928e);
+        
+
+        circle_marker_17e5e387caf444d8940670ef3e7e88aa.bindPopup(popup_d15ff48c5d5f48a3ad8b18d1c370d093)
+        ;
+
+        
+    
+    
+            var circle_marker_2fd0acffe4b54ee1b8c0b9d0efbc3a84 = L.circleMarker(
+                [37.788318947000256, -122.41049007342548],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_5bc83f67ba1e4815881b14ef032aa73f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1de955deae15464587e62aa47b1e946b = $(`<div id="html_1de955deae15464587e62aa47b1e946b" style="width: 100.0%; height: 100.0%;">JW Marriott San Francisco Union Square, Hotel</div>`)[0];
+            popup_5bc83f67ba1e4815881b14ef032aa73f.setContent(html_1de955deae15464587e62aa47b1e946b);
+        
+
+        circle_marker_2fd0acffe4b54ee1b8c0b9d0efbc3a84.bindPopup(popup_5bc83f67ba1e4815881b14ef032aa73f)
+        ;
+
+        
+    
+    
+            var circle_marker_540796dac6fc4131940b7d511bac29f6 = L.circleMarker(
+                [37.787788054975906, -122.40883213469715],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_4a1f015000e847799d9cbadfab823869 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4b367018dec487f9695aae6aa7291e0 = $(`<div id="html_a4b367018dec487f9695aae6aa7291e0" style="width: 100.0%; height: 100.0%;">The Westin St. Francis on Union Square, Hotel</div>`)[0];
+            popup_4a1f015000e847799d9cbadfab823869.setContent(html_a4b367018dec487f9695aae6aa7291e0);
+        
+
+        circle_marker_540796dac6fc4131940b7d511bac29f6.bindPopup(popup_4a1f015000e847799d9cbadfab823869)
+        ;
+
+        
+    
+    
+            var circle_marker_482366c9edce427382d5b07ef49044c5 = L.circleMarker(
+                [37.7877166, -122.41795420000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_9321e35214b94cabb8d2bb776f33997b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d908d9469fc94525a62c08dda8e69080 = $(`<div id="html_d908d9469fc94525a62c08dda8e69080" style="width: 100.0%; height: 100.0%;">Hotel Carlton, Hotel, Meeting Room</div>`)[0];
+            popup_9321e35214b94cabb8d2bb776f33997b.setContent(html_d908d9469fc94525a62c08dda8e69080);
+        
+
+        circle_marker_482366c9edce427382d5b07ef49044c5.bindPopup(popup_9321e35214b94cabb8d2bb776f33997b)
+        ;
+
+        
+    
+    
+            var circle_marker_554ffcd2c5c54c51bfaaa12145e0015a = L.circleMarker(
+                [37.78765320290964, -122.40866482257843],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_6b25c4e67c064f6da610502d959e4714 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_478b73241fca41478be1d491463b24b5 = $(`<div id="html_478b73241fca41478be1d491463b24b5" style="width: 100.0%; height: 100.0%;">Clock Bar, Cocktail Bar, Hotel Bar</div>`)[0];
+            popup_6b25c4e67c064f6da610502d959e4714.setContent(html_478b73241fca41478be1d491463b24b5);
+        
+
+        circle_marker_554ffcd2c5c54c51bfaaa12145e0015a.bindPopup(popup_6b25c4e67c064f6da610502d959e4714)
+        ;
+
+        
+    
+    
+            var circle_marker_e7a5220010704f72912405470b648016 = L.circleMarker(
+                [37.78742754194406, -122.41212543884188],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_7ff27fc8c60446c4971ab7aba2b0ffba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b404e5a2ae5f41c8ba733b77406d0dae = $(`<div id="html_b404e5a2ae5f41c8ba733b77406d0dae" style="width: 100.0%; height: 100.0%;">Adelaide Hostel, Hostel</div>`)[0];
+            popup_7ff27fc8c60446c4971ab7aba2b0ffba.setContent(html_b404e5a2ae5f41c8ba733b77406d0dae);
+        
+
+        circle_marker_e7a5220010704f72912405470b648016.bindPopup(popup_7ff27fc8c60446c4971ab7aba2b0ffba)
+        ;
+
+        
+    
+    
+            var circle_marker_99e27b7fbfe0487880d6804a3fc0baec = L.circleMarker(
+                [37.78730123472428, -122.41385316977112],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_7164ed2e28c44d9c9c94fe09746d8b8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc8fa6cf866418281cf0058703e8591 = $(`<div id="html_3cc8fa6cf866418281cf0058703e8591" style="width: 100.0%; height: 100.0%;">USA Hostels San Francisco, Hostel</div>`)[0];
+            popup_7164ed2e28c44d9c9c94fe09746d8b8e.setContent(html_3cc8fa6cf866418281cf0058703e8591);
+        
+
+        circle_marker_99e27b7fbfe0487880d6804a3fc0baec.bindPopup(popup_7164ed2e28c44d9c9c94fe09746d8b8e)
+        ;
+
+        
+    
+    
+            var circle_marker_69ddde2d013444e0942452ee82c00341 = L.circleMarker(
+                [37.78727025488102, -122.40974848809923],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_0bf8428ab32f41e685cfae21f919defe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b691d1f72d2942ecb2b6ed542d6b2163 = $(`<div id="html_b691d1f72d2942ecb2b6ed542d6b2163" style="width: 100.0%; height: 100.0%;">Hotel G San Francisco, Hotel</div>`)[0];
+            popup_0bf8428ab32f41e685cfae21f919defe.setContent(html_b691d1f72d2942ecb2b6ed542d6b2163);
+        
+
+        circle_marker_69ddde2d013444e0942452ee82c00341.bindPopup(popup_0bf8428ab32f41e685cfae21f919defe)
+        ;
+
+        
+    
+    
+            var circle_marker_cc430bb643354f90ac2ab1134b2a6629 = L.circleMarker(
+                [37.78712900245418, -122.42663270255757],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_ac4566733578497ca5bd4a2ba498e868 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7961570586e443192f574ca4a036d0e = $(`<div id="html_f7961570586e443192f574ca4a036d0e" style="width: 100.0%; height: 100.0%;">Queen Anne Hotel, Hotel</div>`)[0];
+            popup_ac4566733578497ca5bd4a2ba498e868.setContent(html_f7961570586e443192f574ca4a036d0e);
+        
+
+        circle_marker_cc430bb643354f90ac2ab1134b2a6629.bindPopup(popup_ac4566733578497ca5bd4a2ba498e868)
+        ;
+
+        
+    
+    
+            var circle_marker_64d0d683b57841079598cbff081d3f9a = L.circleMarker(
+                [37.78704696190274, -122.41255402565002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_1f3f3d3fd40647acacf610929514c41d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd49852cb9a44b47937d16ea499adc01 = $(`<div id="html_fd49852cb9a44b47937d16ea499adc01" style="width: 100.0%; height: 100.0%;">Hotel Adagio, Hotel, Hotel Bar</div>`)[0];
+            popup_1f3f3d3fd40647acacf610929514c41d.setContent(html_fd49852cb9a44b47937d16ea499adc01);
+        
+
+        circle_marker_64d0d683b57841079598cbff081d3f9a.bindPopup(popup_1f3f3d3fd40647acacf610929514c41d)
+        ;
+
+        
+    
+    
+            var circle_marker_0c06ee989cbd4502bdc3822e63dc9f4e = L.circleMarker(
+                [37.786893855258974, -122.41122897981529],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_fc572df5bfbf406bbea041a4a1bdddf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04f3e605cf6b4e7984127f95bc19d75f = $(`<div id="html_04f3e605cf6b4e7984127f95bc19d75f" style="width: 100.0%; height: 100.0%;">Clift Hotel, Hotel</div>`)[0];
+            popup_fc572df5bfbf406bbea041a4a1bdddf5.setContent(html_04f3e605cf6b4e7984127f95bc19d75f);
+        
+
+        circle_marker_0c06ee989cbd4502bdc3822e63dc9f4e.bindPopup(popup_fc572df5bfbf406bbea041a4a1bdddf5)
+        ;
+
+        
+    
+    
+            var circle_marker_ccfe811af3b54e47a3dff8d18c2feb89 = L.circleMarker(
+                [37.786767433957024, -122.41129098769498],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_b9cf0add5eb6427ab9f0bf3f89ccfec5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43e5a90b28874f36966f3bfaeb755930 = $(`<div id="html_43e5a90b28874f36966f3bfaeb755930" style="width: 100.0%; height: 100.0%;">Redwood Room, Hotel Bar</div>`)[0];
+            popup_b9cf0add5eb6427ab9f0bf3f89ccfec5.setContent(html_43e5a90b28874f36966f3bfaeb755930);
+        
+
+        circle_marker_ccfe811af3b54e47a3dff8d18c2feb89.bindPopup(popup_b9cf0add5eb6427ab9f0bf3f89ccfec5)
+        ;
+
+        
+    
+    
+            var circle_marker_1f531e7a79be44fcaffa2a0d96473be2 = L.circleMarker(
+                [37.7867566744886, -122.40289893653022],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_0dbdc4d8b3a8452488a8ae1d9174b9f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3069302a4d9a4fd3891c4692786701f2 = $(`<div id="html_3069302a4d9a4fd3891c4692786701f2" style="width: 100.0%; height: 100.0%;">Park Central Hotel San Francisco, Hotel</div>`)[0];
+            popup_0dbdc4d8b3a8452488a8ae1d9174b9f7.setContent(html_3069302a4d9a4fd3891c4692786701f2);
+        
+
+        circle_marker_1f531e7a79be44fcaffa2a0d96473be2.bindPopup(popup_0dbdc4d8b3a8452488a8ae1d9174b9f7)
+        ;
+
+        
+    
+    
+            var circle_marker_3dfeccdeb47b42a690655065362adcc1 = L.circleMarker(
+                [37.78669896355312, -122.41137107619556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_5ea2a24c68aa46b98109af4d69968008 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4cfd47515a74b27bc201a5b903c61b1 = $(`<div id="html_c4cfd47515a74b27bc201a5b903c61b1" style="width: 100.0%; height: 100.0%;">Velvet Room, Lounge, Hotel Bar</div>`)[0];
+            popup_5ea2a24c68aa46b98109af4d69968008.setContent(html_c4cfd47515a74b27bc201a5b903c61b1);
+        
+
+        circle_marker_3dfeccdeb47b42a690655065362adcc1.bindPopup(popup_5ea2a24c68aa46b98109af4d69968008)
+        ;
+
+        
+    
+    
+            var circle_marker_939d12c8e072425aa80b53e4413be57c = L.circleMarker(
+                [37.786697, -122.430329],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_7cbb7d032e8d4cf08ab8889aa5c1a565 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81587801f4f64db8b0d39c370979af89 = $(`<div id="html_81587801f4f64db8b0d39c370979af89" style="width: 100.0%; height: 100.0%;">Kimpton Buchanan Hotel, Hotel, Resort</div>`)[0];
+            popup_7cbb7d032e8d4cf08ab8889aa5c1a565.setContent(html_81587801f4f64db8b0d39c370979af89);
+        
+
+        circle_marker_939d12c8e072425aa80b53e4413be57c.bindPopup(popup_7cbb7d032e8d4cf08ab8889aa5c1a565)
+        ;
+
+        
+    
+    
+            var circle_marker_74a54b50bfaa4dd9926d6143401a4128 = L.circleMarker(
+                [37.7866186, -122.41183829999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_92acbe0276214c4ea5a4a1bc04db4bc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05ba833bd4774f77bac4be9b68736ddd = $(`<div id="html_05ba833bd4774f77bac4be9b68736ddd" style="width: 100.0%; height: 100.0%;">The Marker San Francisco, Hotel, Resort, Meeting Room</div>`)[0];
+            popup_92acbe0276214c4ea5a4a1bc04db4bc5.setContent(html_05ba833bd4774f77bac4be9b68736ddd);
+        
+
+        circle_marker_74a54b50bfaa4dd9926d6143401a4128.bindPopup(popup_92acbe0276214c4ea5a4a1bc04db4bc5)
+        ;
+
+        
+    
+    
+            var circle_marker_b7ed4d675a104a74848c9ab3a057f771 = L.circleMarker(
+                [37.786467322814346, -122.40965415362554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_aafb500fb2c5443d9b0d5110a824c575 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7742f211a7f14783a159699780592d7d = $(`<div id="html_7742f211a7f14783a159699780592d7d" style="width: 100.0%; height: 100.0%;">Hostelling International, Hostel</div>`)[0];
+            popup_aafb500fb2c5443d9b0d5110a824c575.setContent(html_7742f211a7f14783a159699780592d7d);
+        
+
+        circle_marker_b7ed4d675a104a74848c9ab3a057f771.bindPopup(popup_aafb500fb2c5443d9b0d5110a824c575)
+        ;
+
+        
+    
+    
+            var circle_marker_542452cee18b4f2d99143516db4eb8f1 = L.circleMarker(
+                [37.78643285558892, -122.40427626014394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_90ddbf058091414aa92cc5086c5680a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7968c3848b724952b974d89ab083bb22 = $(`<div id="html_7968c3848b724952b974d89ab083bb22" style="width: 100.0%; height: 100.0%;">Four Seasons Hotel San Francisco, Hotel</div>`)[0];
+            popup_90ddbf058091414aa92cc5086c5680a3.setContent(html_7968c3848b724952b974d89ab083bb22);
+        
+
+        circle_marker_542452cee18b4f2d99143516db4eb8f1.bindPopup(popup_90ddbf058091414aa92cc5086c5680a3)
+        ;
+
+        
+    
+    
+            var circle_marker_441752f6b2b34eb48b71349ec1e0b01e = L.circleMarker(
+                [37.786096591612704, -122.40173141006149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_30a0f84c41a24b5d8d7ae1bc0c01049c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c6fa6f4525544f9aae3b6842d17860e = $(`<div id="html_5c6fa6f4525544f9aae3b6842d17860e" style="width: 100.0%; height: 100.0%;">The St. Regis Lobby Bar, Hotel Bar</div>`)[0];
+            popup_30a0f84c41a24b5d8d7ae1bc0c01049c.setContent(html_5c6fa6f4525544f9aae3b6842d17860e);
+        
+
+        circle_marker_441752f6b2b34eb48b71349ec1e0b01e.bindPopup(popup_30a0f84c41a24b5d8d7ae1bc0c01049c)
+        ;
+
+        
+    
+    
+            var circle_marker_78ea416e85b94625835deacbc2f1843c = L.circleMarker(
+                [37.78595997359122, -122.40145444047545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_49085ca3739b4c0f9733b91d88311adc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b7d99a39d824d2abcb09a8ad7068bd6 = $(`<div id="html_7b7d99a39d824d2abcb09a8ad7068bd6" style="width: 100.0%; height: 100.0%;">The St. Regis San Francisco, Hotel</div>`)[0];
+            popup_49085ca3739b4c0f9733b91d88311adc.setContent(html_7b7d99a39d824d2abcb09a8ad7068bd6);
+        
+
+        circle_marker_78ea416e85b94625835deacbc2f1843c.bindPopup(popup_49085ca3739b4c0f9733b91d88311adc)
+        ;
+
+        
+    
+    
+            var circle_marker_900022608caa4ec981c5141fd4f9dea6 = L.circleMarker(
+                [37.7857305962995, -122.41011723876001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_aae60b5e81734b16b76831927bee387d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8f1cbec25bd4dac8037a2e5849d7e3e = $(`<div id="html_d8f1cbec25bd4dac8037a2e5849d7e3e" style="width: 100.0%; height: 100.0%;">Hilton San Francisco Union Square, Hotel, Meeting Room</div>`)[0];
+            popup_aae60b5e81734b16b76831927bee387d.setContent(html_d8f1cbec25bd4dac8037a2e5849d7e3e);
+        
+
+        circle_marker_900022608caa4ec981c5141fd4f9dea6.bindPopup(popup_aae60b5e81734b16b76831927bee387d)
+        ;
+
+        
+    
+    
+            var circle_marker_c2c00d94da7c4431871c3cbf0b2d448c = L.circleMarker(
+                [37.7854908, -122.42863179999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_e86f467ad6f14934834470b9b126c004 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfcf12762aac47d2a6a80209c992a31c = $(`<div id="html_bfcf12762aac47d2a6a80209c992a31c" style="width: 100.0%; height: 100.0%;">Hotel Kabuki, Hotel, Meeting Room</div>`)[0];
+            popup_e86f467ad6f14934834470b9b126c004.setContent(html_bfcf12762aac47d2a6a80209c992a31c);
+        
+
+        circle_marker_c2c00d94da7c4431871c3cbf0b2d448c.bindPopup(popup_e86f467ad6f14934834470b9b126c004)
+        ;
+
+        
+    
+    
+            var circle_marker_9c723ed77f324e52910ba783f21d351e = L.circleMarker(
+                [37.78537791718964, -122.40434816811023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_cfd6b417aec24a6180698ef51f3d9ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf37c5cd23f94d5cacd033303773d5a8 = $(`<div id="html_bf37c5cd23f94d5cacd033303773d5a8" style="width: 100.0%; height: 100.0%;">The View, Lounge, Hotel Bar</div>`)[0];
+            popup_cfd6b417aec24a6180698ef51f3d9ba5.setContent(html_bf37c5cd23f94d5cacd033303773d5a8);
+        
+
+        circle_marker_9c723ed77f324e52910ba783f21d351e.bindPopup(popup_cfd6b417aec24a6180698ef51f3d9ba5)
+        ;
+
+        
+    
+    
+            var circle_marker_61dced20c2464ba795d75f0d9dbfed82 = L.circleMarker(
+                [37.78535150544233, -122.40030306497766],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_a05ac71e04e64433bea2a0f57c13ff5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52c1fab4d2174ba4bd0292f14eeeb795 = $(`<div id="html_52c1fab4d2174ba4bd0292f14eeeb795" style="width: 100.0%; height: 100.0%;">W San Francisco, Hotel</div>`)[0];
+            popup_a05ac71e04e64433bea2a0f57c13ff5b.setContent(html_52c1fab4d2174ba4bd0292f14eeeb795);
+        
+
+        circle_marker_61dced20c2464ba795d75f0d9dbfed82.bindPopup(popup_a05ac71e04e64433bea2a0f57c13ff5b)
+        ;
+
+        
+    
+    
+            var circle_marker_4684858469c84200879d822141bc9b93 = L.circleMarker(
+                [37.785238152304956, -122.40434263672995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_5bbe7a0e96e94d829c6e9eb685c067cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40e5096bb244ed9894d89e1bd9de810 = $(`<div id="html_b40e5096bb244ed9894d89e1bd9de810" style="width: 100.0%; height: 100.0%;">San Francisco Marriott Marquis, Hotel</div>`)[0];
+            popup_5bbe7a0e96e94d829c6e9eb685c067cd.setContent(html_b40e5096bb244ed9894d89e1bd9de810);
+        
+
+        circle_marker_4684858469c84200879d822141bc9b93.bindPopup(popup_5bbe7a0e96e94d829c6e9eb685c067cd)
+        ;
+
+        
+    
+    
+            var circle_marker_827913e9cac946b4a2f7f54033d94220 = L.circleMarker(
+                [37.7852112054674, -122.40578960691536],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_3bdac496129f4703a1c91aa79112476e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54645aa22db74af7917c436e7ccafa5c = $(`<div id="html_54645aa22db74af7917c436e7ccafa5c" style="width: 100.0%; height: 100.0%;">Hotel Zelos, Resort, Meeting Room, Spa</div>`)[0];
+            popup_3bdac496129f4703a1c91aa79112476e.setContent(html_54645aa22db74af7917c436e7ccafa5c);
+        
+
+        circle_marker_827913e9cac946b4a2f7f54033d94220.bindPopup(popup_3bdac496129f4703a1c91aa79112476e)
+        ;
+
+        
+    
+    
+            var circle_marker_b1298805c5c148fbbf1553b744e7aa59 = L.circleMarker(
+                [37.784904700000006, -122.4081913],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_41909a44766d47ba9f55cecd5e15d8a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aaa2e30bd7844b6951e710323a1050b = $(`<div id="html_5aaa2e30bd7844b6951e710323a1050b" style="width: 100.0%; height: 100.0%;">Axiom Hotel, Hotel</div>`)[0];
+            popup_41909a44766d47ba9f55cecd5e15d8a8.setContent(html_5aaa2e30bd7844b6951e710323a1050b);
+        
+
+        circle_marker_b1298805c5c148fbbf1553b744e7aa59.bindPopup(popup_41909a44766d47ba9f55cecd5e15d8a8)
+        ;
+
+        
+    
+    
+            var circle_marker_2f77948bd2124ac69473e53977f9a75c = L.circleMarker(
+                [37.784824318285494, -122.40906094019009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_af09a9e8fef1454391cbfa6726c9bb73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72bf501499914a90821c8b3ee533c5bf = $(`<div id="html_72bf501499914a90821c8b3ee533c5bf" style="width: 100.0%; height: 100.0%;">Parc 55 San Francisco, Hotel</div>`)[0];
+            popup_af09a9e8fef1454391cbfa6726c9bb73.setContent(html_72bf501499914a90821c8b3ee533c5bf);
+        
+
+        circle_marker_2f77948bd2124ac69473e53977f9a75c.bindPopup(popup_af09a9e8fef1454391cbfa6726c9bb73)
+        ;
+
+        
+    
+    
+            var circle_marker_640493a207c2401baa7f9e658f30a44c = L.circleMarker(
+                [37.784505241773154, -122.40960369386579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_5d4e31d5c87e418ab846dbb9a7f2691f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_597c07954b1b4bc08ecc69a9b466fef1 = $(`<div id="html_597c07954b1b4bc08ecc69a9b466fef1" style="width: 100.0%; height: 100.0%;">Hotel Bijou, Hotel</div>`)[0];
+            popup_5d4e31d5c87e418ab846dbb9a7f2691f.setContent(html_597c07954b1b4bc08ecc69a9b466fef1);
+        
+
+        circle_marker_640493a207c2401baa7f9e658f30a44c.bindPopup(popup_5d4e31d5c87e418ab846dbb9a7f2691f)
+        ;
+
+        
+    
+    
+            var circle_marker_d12c99faec524f5fb344acf988902e5d = L.circleMarker(
+                [37.784305897339756, -122.41744840426786],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_933a891110454b75a226aaccc4aa3e26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b76672b677c241e9beabd594844f4d7c = $(`<div id="html_b76672b677c241e9beabd594844f4d7c" style="width: 100.0%; height: 100.0%;">Hostelling International - San Francisco City Center Hostel, Hostel</div>`)[0];
+            popup_933a891110454b75a226aaccc4aa3e26.setContent(html_b76672b677c241e9beabd594844f4d7c);
+        
+
+        circle_marker_d12c99faec524f5fb344acf988902e5d.bindPopup(popup_933a891110454b75a226aaccc4aa3e26)
+        ;
+
+        
+    
+    
+            var circle_marker_e1769d39d1b14b379eed8f0e4459ab23 = L.circleMarker(
+                [37.783306874029044, -122.40706268999344],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_33f56877d9e844779f3a65134dbc5afb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea56417a05644de7b4e29379530a80ad = $(`<div id="html_ea56417a05644de7b4e29379530a80ad" style="width: 100.0%; height: 100.0%;">Hotel Zetta San Francisco, Hotel</div>`)[0];
+            popup_33f56877d9e844779f3a65134dbc5afb.setContent(html_ea56417a05644de7b4e29379530a80ad);
+        
+
+        circle_marker_e1769d39d1b14b379eed8f0e4459ab23.bindPopup(popup_33f56877d9e844779f3a65134dbc5afb)
+        ;
+
+        
+    
+    
+            var circle_marker_2e4cd1904c274635bbfaef3d300a6419 = L.circleMarker(
+                [37.783146551187244, -122.41819739341734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_d2c5b608cbef4dac9a2144ac4365cdb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6e9126b82b54d4792cf8024b94de598 = $(`<div id="html_c6e9126b82b54d4792cf8024b94de598" style="width: 100.0%; height: 100.0%;">CHAMBERS eat + drink, Lounge, Hotel Bar, American Restaurant</div>`)[0];
+            popup_d2c5b608cbef4dac9a2144ac4365cdb7.setContent(html_c6e9126b82b54d4792cf8024b94de598);
+        
+
+        circle_marker_2e4cd1904c274635bbfaef3d300a6419.bindPopup(popup_d2c5b608cbef4dac9a2144ac4365cdb7)
+        ;
+
+        
+    
+    
+            var circle_marker_afbb0966543144b79286ce5957ca1b57 = L.circleMarker(
+                [37.78292626633365, -122.41809015254907],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_ae28a3dba0e045af8d1ef08cc6371b4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83cee9077025466eacd4d0eb1e4aad50 = $(`<div id="html_83cee9077025466eacd4d0eb1e4aad50" style="width: 100.0%; height: 100.0%;">Phoenix Hotel, Hotel</div>`)[0];
+            popup_ae28a3dba0e045af8d1ef08cc6371b4b.setContent(html_83cee9077025466eacd4d0eb1e4aad50);
+        
+
+        circle_marker_afbb0966543144b79286ce5957ca1b57.bindPopup(popup_ae28a3dba0e045af8d1ef08cc6371b4b)
+        ;
+
+        
+    
+    
+            var circle_marker_bd1ae5d05b9e46e286a9fc6ebf63b3f3 = L.circleMarker(
+                [37.78205, -122.40473600000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_ee84c46ebda6444e919c9214754cb932 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_203a979d4d2f44aaaeece70b8a482098 = $(`<div id="html_203a979d4d2f44aaaeece70b8a482098" style="width: 100.0%; height: 100.0%;">InterContinental San Francisco, Hotel, Resort, Conference Room</div>`)[0];
+            popup_ee84c46ebda6444e919c9214754cb932.setContent(html_203a979d4d2f44aaaeece70b8a482098);
+        
+
+        circle_marker_bd1ae5d05b9e46e286a9fc6ebf63b3f3.bindPopup(popup_ee84c46ebda6444e919c9214754cb932)
+        ;
+
+        
+    
+    
+            var circle_marker_5d8278bb79bd429db306896c4eac5ca9 = L.circleMarker(
+                [37.765595312377044, -122.43180825975264],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 3}
+            ).addTo(map_da17c9613e5347628659175fe417fc21);
+        
+    
+        var popup_70c89a1011d6474eb40995744842ee20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9be6768fd3e44d582518069b82a9a76 = $(`<div id="html_e9be6768fd3e44d582518069b82a9a76" style="width: 100.0%; height: 100.0%;">Beck&#39;s Motor Lodge, Motel</div>`)[0];
+            popup_70c89a1011d6474eb40995744842ee20.setContent(html_e9be6768fd3e44d582518069b82a9a76);
+        
+
+        circle_marker_5d8278bb79bd429db306896c4eac5ca9.bindPopup(popup_70c89a1011d6474eb40995744842ee20)
+        ;
+
+        
+    
+</script>

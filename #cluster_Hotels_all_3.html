@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_37dfe186466544b885092d723e6d9225 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_37dfe186466544b885092d723e6d9225" ></div>
+        
+</body>
+<script>    
+    
+            var map_37dfe186466544b885092d723e6d9225 = L.map(
+                "map_37dfe186466544b885092d723e6d9225",
+                {
+                    center: [37.7792808, -122.4192363],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5f7f1b402a5b43ec8aaf6b5ddc9a890e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+            var circle_marker_a6f566827c9c43d8b2017e576e9a6985 = L.circleMarker(
+                [37.792298167066434, -122.41054313133543],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_41533cb56d224d99b984183b3e49c2fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f452fcd936654479b4a409c37955a9cf = $(`<div id="html_f452fcd936654479b4a409c37955a9cf" style="width: 100.0%; height: 100.0%;">The Fairmont San Francisco, Hotel</div>`)[0];
+            popup_41533cb56d224d99b984183b3e49c2fb.setContent(html_f452fcd936654479b4a409c37955a9cf);
+        
+
+        circle_marker_a6f566827c9c43d8b2017e576e9a6985.bindPopup(popup_41533cb56d224d99b984183b3e49c2fb)
+        ;
+
+        
+    
+    
+            var circle_marker_47e0e0e72bc0446e9970950040efbb94 = L.circleMarker(
+                [37.792261319862405, -122.40963578224182],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_70e3c854fd3d4facabbbc1bd7f0e7960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cddf3deab5a47adacf2871f735ee246 = $(`<div id="html_4cddf3deab5a47adacf2871f735ee246" style="width: 100.0%; height: 100.0%;">Tonga Room &amp; Hurricane Bar, Tiki Bar, Asian Restaurant, Hotel Bar</div>`)[0];
+            popup_70e3c854fd3d4facabbbc1bd7f0e7960.setContent(html_4cddf3deab5a47adacf2871f735ee246);
+        
+
+        circle_marker_47e0e0e72bc0446e9970950040efbb94.bindPopup(popup_70e3c854fd3d4facabbbc1bd7f0e7960)
+        ;
+
+        
+    
+    
+            var circle_marker_8cdc6fe77af34302a82d2e5a0f01b177 = L.circleMarker(
+                [37.78913699, -122.4072003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_45c660e458fc416ca5fe63947e03f22d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11fc549c81364014bb1d3cd4c055e634 = $(`<div id="html_11fc549c81364014bb1d3cd4c055e634" style="width: 100.0%; height: 100.0%;">Grand Hyatt San Francisco, Hotel</div>`)[0];
+            popup_45c660e458fc416ca5fe63947e03f22d.setContent(html_11fc549c81364014bb1d3cd4c055e634);
+        
+
+        circle_marker_8cdc6fe77af34302a82d2e5a0f01b177.bindPopup(popup_45c660e458fc416ca5fe63947e03f22d)
+        ;
+
+        
+    
+    
+            var circle_marker_0f68eed97e9c4cd89b3839f5b24aca82 = L.circleMarker(
+                [37.788599, -122.402019],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_8a693fb6cdf547a0a422c2411745f580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae699efaed184a6bbc908d6b29a1544a = $(`<div id="html_ae699efaed184a6bbc908d6b29a1544a" style="width: 100.0%; height: 100.0%;">Palace Hotel, Hotel</div>`)[0];
+            popup_8a693fb6cdf547a0a422c2411745f580.setContent(html_ae699efaed184a6bbc908d6b29a1544a);
+        
+
+        circle_marker_0f68eed97e9c4cd89b3839f5b24aca82.bindPopup(popup_8a693fb6cdf547a0a422c2411745f580)
+        ;
+
+        
+    
+    
+            var circle_marker_21782771f14043d9ba613dee78c55c41 = L.circleMarker(
+                [37.78595997359122, -122.40145444047545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_665b5067b7bc43d2b9d903f8b9021ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e80571a1e98646e5ace0da675be0ad90 = $(`<div id="html_e80571a1e98646e5ace0da675be0ad90" style="width: 100.0%; height: 100.0%;">The St. Regis San Francisco, Hotel</div>`)[0];
+            popup_665b5067b7bc43d2b9d903f8b9021ef7.setContent(html_e80571a1e98646e5ace0da675be0ad90);
+        
+
+        circle_marker_21782771f14043d9ba613dee78c55c41.bindPopup(popup_665b5067b7bc43d2b9d903f8b9021ef7)
+        ;
+
+        
+    
+    
+            var circle_marker_66d90363aac94f0c87a72cfa6d558a7b = L.circleMarker(
+                [37.78537791718964, -122.40434816811023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_b774cbb719a4486394a961a7edda706b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d962f1285d5d434caaca20e0265b35e2 = $(`<div id="html_d962f1285d5d434caaca20e0265b35e2" style="width: 100.0%; height: 100.0%;">The View, Lounge, Hotel Bar</div>`)[0];
+            popup_b774cbb719a4486394a961a7edda706b.setContent(html_d962f1285d5d434caaca20e0265b35e2);
+        
+
+        circle_marker_66d90363aac94f0c87a72cfa6d558a7b.bindPopup(popup_b774cbb719a4486394a961a7edda706b)
+        ;
+
+        
+    
+    
+            var circle_marker_93dae8c1a3574bfb855911b8ecba8bda = L.circleMarker(
+                [37.783146551187244, -122.41819739341734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_a5aafb135f874bd4abad44ff094186ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d26ac2cb2b434ce99fbe0db30fe34120 = $(`<div id="html_d26ac2cb2b434ce99fbe0db30fe34120" style="width: 100.0%; height: 100.0%;">CHAMBERS eat + drink, Lounge, Hotel Bar, American Restaurant</div>`)[0];
+            popup_a5aafb135f874bd4abad44ff094186ff.setContent(html_d26ac2cb2b434ce99fbe0db30fe34120);
+        
+
+        circle_marker_93dae8c1a3574bfb855911b8ecba8bda.bindPopup(popup_a5aafb135f874bd4abad44ff094186ff)
+        ;
+
+        
+    
+    
+            var circle_marker_5e67684eb12c44e38bd70202babbe232 = L.circleMarker(
+                [37.78205, -122.40473600000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_37dfe186466544b885092d723e6d9225);
+        
+    
+        var popup_a49cab01e2724c0197a5ca3a6f9bb983 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41da83485aba4a46b47c503fcfdfda8c = $(`<div id="html_41da83485aba4a46b47c503fcfdfda8c" style="width: 100.0%; height: 100.0%;">InterContinental San Francisco, Hotel, Resort, Conference Room</div>`)[0];
+            popup_a49cab01e2724c0197a5ca3a6f9bb983.setContent(html_41da83485aba4a46b47c503fcfdfda8c);
+        
+
+        circle_marker_5e67684eb12c44e38bd70202babbe232.bindPopup(popup_a49cab01e2724c0197a5ca3a6f9bb983)
+        ;
+
+        
+    
+</script>

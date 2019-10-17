@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6360f28403d5402bbeced8e455e58444 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6360f28403d5402bbeced8e455e58444" ></div>
+        
+</body>
+<script>    
+    
+            var map_6360f28403d5402bbeced8e455e58444 = L.map(
+                "map_6360f28403d5402bbeced8e455e58444",
+                {
+                    center: [37.7792808, -122.4192363],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b35b956a2a446bd9efee72ca051ef08 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+            var circle_marker_a8599a17f74f4fbf814a883e644bea8e = L.circleMarker(
+                [37.78457546024026, -122.40323635482677],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_eee094ce030a4a418710f54d71a57957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86a81ce881f040908b8c1c5f57cc1c6c = $(`<div id="html_86a81ce881f040908b8c1c5f57cc1c6c" style="width: 100.0%; height: 100.0%;">AMC Metreon 16, Movie Theater, Multiplex</div>`)[0];
+            popup_eee094ce030a4a418710f54d71a57957.setContent(html_86a81ce881f040908b8c1c5f57cc1c6c);
+        
+
+        circle_marker_a8599a17f74f4fbf814a883e644bea8e.bindPopup(popup_eee094ce030a4a418710f54d71a57957)
+        ;
+
+        
+    
+    
+            var circle_marker_79c8eb611f7242c4984e92209b6e20d7 = L.circleMarker(
+                [37.79553812238765, -122.39347279071806],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_c0afa8e02167410483b6228eee2ffb5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_851393d7e1b344888c5226a877b45be2 = $(`<div id="html_851393d7e1b344888c5226a877b45be2" style="width: 100.0%; height: 100.0%;">Ferry Building (Ferry Building Marketplace), Farmers Market, Historic Site, Monument / Landmark</div>`)[0];
+            popup_c0afa8e02167410483b6228eee2ffb5f.setContent(html_851393d7e1b344888c5226a877b45be2);
+        
+
+        circle_marker_79c8eb611f7242c4984e92209b6e20d7.bindPopup(popup_c0afa8e02167410483b6228eee2ffb5f)
+        ;
+
+        
+    
+    
+            var circle_marker_841a20ed4c2f45779e9d0f1ffb074032 = L.circleMarker(
+                [37.78308647266149, -122.46165835038073],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_b215b9e440634b8fbb9dec4c70d5bd27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee4edfe939bb463695ed0a5917caf516 = $(`<div id="html_ee4edfe939bb463695ed0a5917caf516" style="width: 100.0%; height: 100.0%;">Park Life, Art Gallery, Gift Shop, Bookstore</div>`)[0];
+            popup_b215b9e440634b8fbb9dec4c70d5bd27.setContent(html_ee4edfe939bb463695ed0a5917caf516);
+        
+
+        circle_marker_841a20ed4c2f45779e9d0f1ffb074032.bindPopup(popup_b215b9e440634b8fbb9dec4c70d5bd27)
+        ;
+
+        
+    
+    
+            var circle_marker_1731d32bda57405e9da8b72ed25d61d7 = L.circleMarker(
+                [37.7688828622445, -122.41947412490843],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_a16e4887fe2943dd8b895baf0f6ecf2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_399c604c0cd2478789e8d3d01fb6cf18 = $(`<div id="html_399c604c0cd2478789e8d3d01fb6cf18" style="width: 100.0%; height: 100.0%;">Public Works, Event Space, Nightclub, Art Gallery</div>`)[0];
+            popup_a16e4887fe2943dd8b895baf0f6ecf2c.setContent(html_399c604c0cd2478789e8d3d01fb6cf18);
+        
+
+        circle_marker_1731d32bda57405e9da8b72ed25d61d7.bindPopup(popup_a16e4887fe2943dd8b895baf0f6ecf2c)
+        ;
+
+        
+    
+    
+            var circle_marker_05115921db694ca08833f8a50b204070 = L.circleMarker(
+                [37.75200177947988, -122.41243273624023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_b735ac0566db4aa8b43e5ab2fe217a19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26076ee076ed40a1831431a35985e86d = $(`<div id="html_26076ee076ed40a1831431a35985e86d" style="width: 100.0%; height: 100.0%;">Balmy Alley, Public Art, Art Gallery</div>`)[0];
+            popup_b735ac0566db4aa8b43e5ab2fe217a19.setContent(html_26076ee076ed40a1831431a35985e86d);
+        
+
+        circle_marker_05115921db694ca08833f8a50b204070.bindPopup(popup_b735ac0566db4aa8b43e5ab2fe217a19)
+        ;
+
+        
+    
+    
+            var circle_marker_896f37642f3147c6bf71e302cc07fad9 = L.circleMarker(
+                [37.786968474038346, -122.41010342637672],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_930992368cca482984efaf793705cf43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83075bb7756b40249b1afebc13be10cf = $(`<div id="html_83075bb7756b40249b1afebc13be10cf" style="width: 100.0%; height: 100.0%;">American Conservatory Theater, Theater, Performing Arts Venue</div>`)[0];
+            popup_930992368cca482984efaf793705cf43.setContent(html_83075bb7756b40249b1afebc13be10cf);
+        
+
+        circle_marker_896f37642f3147c6bf71e302cc07fad9.bindPopup(popup_930992368cca482984efaf793705cf43)
+        ;
+
+        
+    
+    
+            var circle_marker_204e716f99e44bdf8114cd0c8b9f1754 = L.circleMarker(
+                [37.763763835109664, -122.4193518502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_391d6ef997594828b4950484d3e91712 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71a0154d58844d30b657b7cca53b40d9 = $(`<div id="html_71a0154d58844d30b657b7cca53b40d9" style="width: 100.0%; height: 100.0%;">The Secret Alley, Performing Arts Venue</div>`)[0];
+            popup_391d6ef997594828b4950484d3e91712.setContent(html_71a0154d58844d30b657b7cca53b40d9);
+        
+
+        circle_marker_204e716f99e44bdf8114cd0c8b9f1754.bindPopup(popup_391d6ef997594828b4950484d3e91712)
+        ;
+
+        
+    
+    
+            var circle_marker_7ab323de916e458cb6bdbd505fec15c9 = L.circleMarker(
+                [37.773035971932266, -122.41959984215343],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_2d5a9c2f09df41adb082479b6470e873 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc594b36af5d47dc8f3ebe7770257c04 = $(`<div id="html_bc594b36af5d47dc8f3ebe7770257c04" style="width: 100.0%; height: 100.0%;">City Dance Studios, Dance Studio, Theater</div>`)[0];
+            popup_2d5a9c2f09df41adb082479b6470e873.setContent(html_bc594b36af5d47dc8f3ebe7770257c04);
+        
+
+        circle_marker_7ab323de916e458cb6bdbd505fec15c9.bindPopup(popup_2d5a9c2f09df41adb082479b6470e873)
+        ;
+
+        
+    
+    
+            var circle_marker_e7a08849b13f4d4b87140ae564dbf53c = L.circleMarker(
+                [37.79259197405775, -122.39097833633423],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_f9786ce741094ec1886463c3a5d795d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0459468f71c40d38c72c676a3f97ed0 = $(`<div id="html_e0459468f71c40d38c72c676a3f97ed0" style="width: 100.0%; height: 100.0%;">The Bay Lights, Public Art, General Entertainment</div>`)[0];
+            popup_f9786ce741094ec1886463c3a5d795d6.setContent(html_e0459468f71c40d38c72c676a3f97ed0);
+        
+
+        circle_marker_e7a08849b13f4d4b87140ae564dbf53c.bindPopup(popup_f9786ce741094ec1886463c3a5d795d6)
+        ;
+
+        
+    
+    
+            var circle_marker_62ab550853ab46929ce189a3e3ff329d = L.circleMarker(
+                [37.73603524671943, -122.47910524327429],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_787a642ea280435f9b5d23752a9af0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5e93e311f0d434b975ec3593c92f3d3 = $(`<div id="html_e5e93e311f0d434b975ec3593c92f3d3" style="width: 100.0%; height: 100.0%;">Stern Grove Festival, Music Venue, Performing Arts Venue</div>`)[0];
+            popup_787a642ea280435f9b5d23752a9af0b8.setContent(html_e5e93e311f0d434b975ec3593c92f3d3);
+        
+
+        circle_marker_62ab550853ab46929ce189a3e3ff329d.bindPopup(popup_787a642ea280435f9b5d23752a9af0b8)
+        ;
+
+        
+    
+    
+            var circle_marker_4195ce27eeba4b79adcc4ed4230af068 = L.circleMarker(
+                [37.79166582464069, -122.41334845310055],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_755accff39884ab7a9e84caf1f4e1f6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dc58c309d764221923abf3b3cf6d92d = $(`<div id="html_8dc58c309d764221923abf3b3cf6d92d" style="width: 100.0%; height: 100.0%;">Grace Cathedral, Church, Concert Hall</div>`)[0];
+            popup_755accff39884ab7a9e84caf1f4e1f6e.setContent(html_8dc58c309d764221923abf3b3cf6d92d);
+        
+
+        circle_marker_4195ce27eeba4b79adcc4ed4230af068.bindPopup(popup_755accff39884ab7a9e84caf1f4e1f6e)
+        ;
+
+        
+    
+    
+            var circle_marker_37be30225cce422ca5d42bca86a890d2 = L.circleMarker(
+                [37.77205414758087, -122.46837464962783],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_392a3356e48e4fb4987062ddd94645c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7f44c0d94864b55be42bc78be99b7bf = $(`<div id="html_e7f44c0d94864b55be42bc78be99b7bf" style="width: 100.0%; height: 100.0%;">Hamon Education Tower Observation Deck, Scenic Lookout, Museum</div>`)[0];
+            popup_392a3356e48e4fb4987062ddd94645c3.setContent(html_e7f44c0d94864b55be42bc78be99b7bf);
+        
+
+        circle_marker_37be30225cce422ca5d42bca86a890d2.bindPopup(popup_392a3356e48e4fb4987062ddd94645c3)
+        ;
+
+        
+    
+    
+            var circle_marker_c2f8118f33184c7b87f7d2534fc61eeb = L.circleMarker(
+                [37.809841740682224, -122.47633650342695],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_31150f63b6c34d72a5e7fd8e2634019b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b75257ab46f4120a06751de56dd998e = $(`<div id="html_8b75257ab46f4120a06751de56dd998e" style="width: 100.0%; height: 100.0%;">Fort Point National Historic Site, Historic Site, National Park</div>`)[0];
+            popup_31150f63b6c34d72a5e7fd8e2634019b.setContent(html_8b75257ab46f4120a06751de56dd998e);
+        
+
+        circle_marker_c2f8118f33184c7b87f7d2534fc61eeb.bindPopup(popup_31150f63b6c34d72a5e7fd8e2634019b)
+        ;
+
+        
+    
+    
+            var circle_marker_e1e5e051542c4b3e9d71ad3d7fafbba0 = L.circleMarker(
+                [37.7358879560395, -122.47670132319355],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_38788e0c78e14a3ca06af36aee0bcb72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a66ccbfc65f0478a8e29c4e2dfa68b3f = $(`<div id="html_a66ccbfc65f0478a8e29c4e2dfa68b3f" style="width: 100.0%; height: 100.0%;">Sigmund Stern Grove, Park, Other Great Outdoors, Music Venue</div>`)[0];
+            popup_38788e0c78e14a3ca06af36aee0bcb72.setContent(html_a66ccbfc65f0478a8e29c4e2dfa68b3f);
+        
+
+        circle_marker_e1e5e051542c4b3e9d71ad3d7fafbba0.bindPopup(popup_38788e0c78e14a3ca06af36aee0bcb72)
+        ;
+
+        
+    
+    
+            var circle_marker_85fdfbba966141feb4a2464848b8f67b = L.circleMarker(
+                [37.80340244004179, -122.41707220864224],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_020a3e2b99c24392a4c49969d8c2f05c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_307d8b8eb2c34f0ca8e8525cb6f76304 = $(`<div id="html_307d8b8eb2c34f0ca8e8525cb6f76304" style="width: 100.0%; height: 100.0%;">San Francisco Art Institute, Trade School, Art Gallery</div>`)[0];
+            popup_020a3e2b99c24392a4c49969d8c2f05c.setContent(html_307d8b8eb2c34f0ca8e8525cb6f76304);
+        
+
+        circle_marker_85fdfbba966141feb4a2464848b8f67b.bindPopup(popup_020a3e2b99c24392a4c49969d8c2f05c)
+        ;
+
+        
+    
+    
+            var circle_marker_1e3db3abbfb64487a19799e14432d2d1 = L.circleMarker(
+                [37.778520022333865, -122.38981069674651],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_f15454de7289469b8b5102a27c04e843 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a4ecf1d647a4707aa2304dfc5c1b4b2 = $(`<div id="html_0a4ecf1d647a4707aa2304dfc5c1b4b2" style="width: 100.0%; height: 100.0%;">Club Level at AT&amp;T Park, Baseball Stadium, Event Space</div>`)[0];
+            popup_f15454de7289469b8b5102a27c04e843.setContent(html_0a4ecf1d647a4707aa2304dfc5c1b4b2);
+        
+
+        circle_marker_1e3db3abbfb64487a19799e14432d2d1.bindPopup(popup_f15454de7289469b8b5102a27c04e843)
+        ;
+
+        
+    
+    
+            var circle_marker_1129c671e1e646379b04fda9287a2f97 = L.circleMarker(
+                [37.76993725642404, -122.4472200691626],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_8d18a439285243efaf646be0e9359911 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_458d792e2a08408e900511a6a18704ed = $(`<div id="html_458d792e2a08408e900511a6a18704ed" style="width: 100.0%; height: 100.0%;">Club Deluxe, Jazz Club, Bar, Lounge</div>`)[0];
+            popup_8d18a439285243efaf646be0e9359911.setContent(html_458d792e2a08408e900511a6a18704ed);
+        
+
+        circle_marker_1129c671e1e646379b04fda9287a2f97.bindPopup(popup_8d18a439285243efaf646be0e9359911)
+        ;
+
+        
+    
+    
+            var circle_marker_7f1ac6a85c734d21aab88189fc949f63 = L.circleMarker(
+                [37.80654071386508, -122.43206667777436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_48b72fdf9a2045e19c494cc83616cbd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18b5f07dc5704df996c4d87925754c73 = $(`<div id="html_18b5f07dc5704df996c4d87925754c73" style="width: 100.0%; height: 100.0%;">The Interval at Long Now, Cocktail Bar, Museum, Coffee Shop</div>`)[0];
+            popup_48b72fdf9a2045e19c494cc83616cbd4.setContent(html_18b5f07dc5704df996c4d87925754c73);
+        
+
+        circle_marker_7f1ac6a85c734d21aab88189fc949f63.bindPopup(popup_48b72fdf9a2045e19c494cc83616cbd4)
+        ;
+
+        
+    
+    
+            var circle_marker_de92416a3aed4efbae9a2f0a20d4c083 = L.circleMarker(
+                [37.784919196285855, -122.41892787488793],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_97251c201222477ca1b0040c9171c1b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_734cc9c1c5a64630b98bc5c412c910fd = $(`<div id="html_734cc9c1c5a64630b98bc5c412c910fd" style="width: 100.0%; height: 100.0%;">Great American Music Hall, Rock Club, Music Venue, Bar</div>`)[0];
+            popup_97251c201222477ca1b0040c9171c1b3.setContent(html_734cc9c1c5a64630b98bc5c412c910fd);
+        
+
+        circle_marker_de92416a3aed4efbae9a2f0a20d4c083.bindPopup(popup_97251c201222477ca1b0040c9171c1b3)
+        ;
+
+        
+    
+    
+            var circle_marker_c354406a3749493aae8476384af3350f = L.circleMarker(
+                [37.79467940799266, -122.41142910189285],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_177aff40aa304d76a9a0f6d36aaf1336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb78618780ad4f00b0be68428c9bcdc9 = $(`<div id="html_eb78618780ad4f00b0be68428c9bcdc9" style="width: 100.0%; height: 100.0%;">San Francisco Cable Car Museum, History Museum</div>`)[0];
+            popup_177aff40aa304d76a9a0f6d36aaf1336.setContent(html_eb78618780ad4f00b0be68428c9bcdc9);
+        
+
+        circle_marker_c354406a3749493aae8476384af3350f.bindPopup(popup_177aff40aa304d76a9a0f6d36aaf1336)
+        ;
+
+        
+    
+    
+            var circle_marker_ae295204e91047fa8bf91f47d796e891 = L.circleMarker(
+                [37.76485987547599, -122.42243357760992],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_939b2af9bc3146b6aa09c482af1ed639 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2812363ca55f46cf98c05de93ac21b32 = $(`<div id="html_2812363ca55f46cf98c05de93ac21b32" style="width: 100.0%; height: 100.0%;">Roxie Cinema, Indie Movie Theater, Historic Site</div>`)[0];
+            popup_939b2af9bc3146b6aa09c482af1ed639.setContent(html_2812363ca55f46cf98c05de93ac21b32);
+        
+
+        circle_marker_ae295204e91047fa8bf91f47d796e891.bindPopup(popup_939b2af9bc3146b6aa09c482af1ed639)
+        ;
+
+        
+    
+    
+            var circle_marker_a1f72c3dc6174a59a6a39a477b551f41 = L.circleMarker(
+                [37.772349905459535, -122.46018918929992],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_93321063f8b34c7f8b46d27825fb35f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bcf5adf61954b0b9402d93776adad1a = $(`<div id="html_2bcf5adf61954b0b9402d93776adad1a" style="width: 100.0%; height: 100.0%;">Conservatory of Flowers, Garden, Museum</div>`)[0];
+            popup_93321063f8b34c7f8b46d27825fb35f9.setContent(html_2bcf5adf61954b0b9402d93776adad1a);
+        
+
+        circle_marker_a1f72c3dc6174a59a6a39a477b551f41.bindPopup(popup_93321063f8b34c7f8b46d27825fb35f9)
+        ;
+
+        
+    
+    
+            var circle_marker_bae010d308bd48e4add494362522e093 = L.circleMarker(
+                [37.779548182877924, -122.42095293686123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_e73557f6fcfe484f859b5e907a5560c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72ab23eada724ba395a4b51c5a626a3f = $(`<div id="html_72ab23eada724ba395a4b51c5a626a3f" style="width: 100.0%; height: 100.0%;">Herbst Theater, Concert Hall</div>`)[0];
+            popup_e73557f6fcfe484f859b5e907a5560c3.setContent(html_72ab23eada724ba395a4b51c5a626a3f);
+        
+
+        circle_marker_bae010d308bd48e4add494362522e093.bindPopup(popup_e73557f6fcfe484f859b5e907a5560c3)
+        ;
+
+        
+    
+    
+            var circle_marker_0ce2bf20171c44509131d36fff630c76 = L.circleMarker(
+                [37.75542411945885, -122.41983879669014],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_c50c8a9348b24427acf24f83c3fb5b67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bdc59bb2ba9415b8e2d236d56d23871 = $(`<div id="html_9bdc59bb2ba9415b8e2d236d56d23871" style="width: 100.0%; height: 100.0%;">Revolution Cafe, Café, Music Venue</div>`)[0];
+            popup_c50c8a9348b24427acf24f83c3fb5b67.setContent(html_9bdc59bb2ba9415b8e2d236d56d23871);
+        
+
+        circle_marker_0ce2bf20171c44509131d36fff630c76.bindPopup(popup_c50c8a9348b24427acf24f83c3fb5b67)
+        ;
+
+        
+    
+    
+            var circle_marker_d9332a97ef7e40f3bf18d388fb3d499f = L.circleMarker(
+                [37.77012897190684, -122.50931352225612],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_91b4c700d11a438b992a9a00b2ef500e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a03dc0073343ba8074fa9a58cf89d3 = $(`<div id="html_38a03dc0073343ba8074fa9a58cf89d3" style="width: 100.0%; height: 100.0%;">Dutch Windmill, Monument / Landmark</div>`)[0];
+            popup_91b4c700d11a438b992a9a00b2ef500e.setContent(html_38a03dc0073343ba8074fa9a58cf89d3);
+        
+
+        circle_marker_d9332a97ef7e40f3bf18d388fb3d499f.bindPopup(popup_91b4c700d11a438b992a9a00b2ef500e)
+        ;
+
+        
+    
+    
+            var circle_marker_60e4f580d26d4545932c78a51895740a = L.circleMarker(
+                [37.776350017681864, -122.42153942584991],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_676da2c6aa2b4c9fb85a3daa5161ce1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b579a7146cc4a58b43ec5a04f165f74 = $(`<div id="html_3b579a7146cc4a58b43ec5a04f165f74" style="width: 100.0%; height: 100.0%;">SFJazz Center, Jazz Club, Concert Hall</div>`)[0];
+            popup_676da2c6aa2b4c9fb85a3daa5161ce1e.setContent(html_3b579a7146cc4a58b43ec5a04f165f74);
+        
+
+        circle_marker_60e4f580d26d4545932c78a51895740a.bindPopup(popup_676da2c6aa2b4c9fb85a3daa5161ce1e)
+        ;
+
+        
+    
+    
+            var circle_marker_9dbbf4b2e48b43cd896d7720248634aa = L.circleMarker(
+                [37.76675600477152, -122.43056333498885],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_0cb23c0b91e74351a34c20aac06c995d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a44f24d5f6b34f61a7538f66ec53d935 = $(`<div id="html_a44f24d5f6b34f61a7538f66ec53d935" style="width: 100.0%; height: 100.0%;">Swedish American Hall, Concert Hall, Theater, Event Space</div>`)[0];
+            popup_0cb23c0b91e74351a34c20aac06c995d.setContent(html_a44f24d5f6b34f61a7538f66ec53d935);
+        
+
+        circle_marker_9dbbf4b2e48b43cd896d7720248634aa.bindPopup(popup_0cb23c0b91e74351a34c20aac06c995d)
+        ;
+
+        
+    
+    
+            var circle_marker_190e0205076c4f4fa786045805ac693a = L.circleMarker(
+                [37.786335690167796, -122.40040370448229],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_c0d6dd1829024b719f775c2c18acc1fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36505f41e9c94027bfca84a0e46c5e3a = $(`<div id="html_36505f41e9c94027bfca84a0e46c5e3a" style="width: 100.0%; height: 100.0%;">SFMOMA Rooftop Sculpture Garden, Art Museum</div>`)[0];
+            popup_c0d6dd1829024b719f775c2c18acc1fb.setContent(html_36505f41e9c94027bfca84a0e46c5e3a);
+        
+
+        circle_marker_190e0205076c4f4fa786045805ac693a.bindPopup(popup_c0d6dd1829024b719f775c2c18acc1fb)
+        ;
+
+        
+    
+    
+            var circle_marker_649d0e4647594299899d7444a78663e6 = L.circleMarker(
+                [37.7609778298693, -122.41940757651493],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_86597b7e160f417a832c643c9cd79e0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_176724f8888246ccbda1f3049d113c9e = $(`<div id="html_176724f8888246ccbda1f3049d113c9e" style="width: 100.0%; height: 100.0%;">Mission: Comics &amp; Art, Comic Shop, Art Gallery</div>`)[0];
+            popup_86597b7e160f417a832c643c9cd79e0a.setContent(html_176724f8888246ccbda1f3049d113c9e);
+        
+
+        circle_marker_649d0e4647594299899d7444a78663e6.bindPopup(popup_86597b7e160f417a832c643c9cd79e0a)
+        ;
+
+        
+    
+    
+            var circle_marker_0451e01e7928424291193ad78d3ce400 = L.circleMarker(
+                [37.7798876509815, -122.41313778134581],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_9b4ae219795d4ad3a65cb4eb4e42b358 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e73c2be01224eb595230f09905cbe22 = $(`<div id="html_5e73c2be01224eb595230f09905cbe22" style="width: 100.0%; height: 100.0%;">The Strand, Theater</div>`)[0];
+            popup_9b4ae219795d4ad3a65cb4eb4e42b358.setContent(html_5e73c2be01224eb595230f09905cbe22);
+        
+
+        circle_marker_0451e01e7928424291193ad78d3ce400.bindPopup(popup_9b4ae219795d4ad3a65cb4eb4e42b358)
+        ;
+
+        
+    
+    
+            var circle_marker_2f31585b7b0b4000898761047cf5db71 = L.circleMarker(
+                [37.77559103972081, -122.419753074646],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_58bf54d46e734a57a561890d15062074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e41a7f1506af46f3a7fcfc4472eedf20 = $(`<div id="html_e41a7f1506af46f3a7fcfc4472eedf20" style="width: 100.0%; height: 100.0%;">New Conservatory Theatre Center, Theater</div>`)[0];
+            popup_58bf54d46e734a57a561890d15062074.setContent(html_e41a7f1506af46f3a7fcfc4472eedf20);
+        
+
+        circle_marker_2f31585b7b0b4000898761047cf5db71.bindPopup(popup_58bf54d46e734a57a561890d15062074)
+        ;
+
+        
+    
+    
+            var circle_marker_332ac117f390457aad97fccf5f2329c7 = L.circleMarker(
+                [37.7658019226891, -122.45695989686837],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_d0ef3c1699c548288510aca8dc7dfbcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_843647b14756432cb46908c8c7f77b06 = $(`<div id="html_843647b14756432cb46908c8c7f77b06" style="width: 100.0%; height: 100.0%;">Circus Center, Performing Arts Venue, Gym / Fitness Center</div>`)[0];
+            popup_d0ef3c1699c548288510aca8dc7dfbcb.setContent(html_843647b14756432cb46908c8c7f77b06);
+        
+
+        circle_marker_332ac117f390457aad97fccf5f2329c7.bindPopup(popup_d0ef3c1699c548288510aca8dc7dfbcb)
+        ;
+
+        
+    
+    
+            var circle_marker_2b05c55c3a9f44b5baa1237d6271c001 = L.circleMarker(
+                [37.75795324940838, -122.41826453677702],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_59c05cc3a0f6430ba28efca90ded6f80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_329e00eafabe4f91ba7bde78dcf8956e = $(`<div id="html_329e00eafabe4f91ba7bde78dcf8956e" style="width: 100.0%; height: 100.0%;">Community Music Center, Music School, Concert Hall</div>`)[0];
+            popup_59c05cc3a0f6430ba28efca90ded6f80.setContent(html_329e00eafabe4f91ba7bde78dcf8956e);
+        
+
+        circle_marker_2b05c55c3a9f44b5baa1237d6271c001.bindPopup(popup_59c05cc3a0f6430ba28efca90ded6f80)
+        ;
+
+        
+    
+    
+            var circle_marker_9c26f97894b847b3b6c0217a105a149d = L.circleMarker(
+                [37.785337003996844, -122.42985659952744],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_4c597719031f4cada81e36724e09f255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_089f5ea75cd94950b9c4d7da89054a6e = $(`<div id="html_089f5ea75cd94950b9c4d7da89054a6e" style="width: 100.0%; height: 100.0%;">The Peace Pagoda, Monument / Landmark, Spiritual Center</div>`)[0];
+            popup_4c597719031f4cada81e36724e09f255.setContent(html_089f5ea75cd94950b9c4d7da89054a6e);
+        
+
+        circle_marker_9c26f97894b847b3b6c0217a105a149d.bindPopup(popup_4c597719031f4cada81e36724e09f255)
+        ;
+
+        
+    
+    
+            var circle_marker_41612df919be4284b08705449fdeca5b = L.circleMarker(
+                [37.75436749832374, -122.41848034870623],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_859bb7a196eb48608f01dc8472c2b453 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_891d63befe2545c48dbab6beff115cb3 = $(`<div id="html_891d63befe2545c48dbab6beff115cb3" style="width: 100.0%; height: 100.0%;">Gray Area Art &amp; Technology Theater, Performing Arts Venue, Indie Movie Theater, Art Gallery</div>`)[0];
+            popup_859bb7a196eb48608f01dc8472c2b453.setContent(html_891d63befe2545c48dbab6beff115cb3);
+        
+
+        circle_marker_41612df919be4284b08705449fdeca5b.bindPopup(popup_859bb7a196eb48608f01dc8472c2b453)
+        ;
+
+        
+    
+    
+            var circle_marker_fbf5371794b8481bbaed5dbb43daaeae = L.circleMarker(
+                [37.80206826733293, -122.44871010638515],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_75b3c65ce70c4d4eadb6f5139a26127e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d9bb0c04d0248cda8941bfe66e758d6 = $(`<div id="html_3d9bb0c04d0248cda8941bfe66e758d6" style="width: 100.0%; height: 100.0%;">Palace of Fine Arts Theater, Theater</div>`)[0];
+            popup_75b3c65ce70c4d4eadb6f5139a26127e.setContent(html_3d9bb0c04d0248cda8941bfe66e758d6);
+        
+
+        circle_marker_fbf5371794b8481bbaed5dbb43daaeae.bindPopup(popup_75b3c65ce70c4d4eadb6f5139a26127e)
+        ;
+
+        
+    
+    
+            var circle_marker_40b9e30a073140cf91de481d9d139d6b = L.circleMarker(
+                [37.7825233143151, -122.41039216518402],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_38ef3587e29840ea9476564ec3e356d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19f5952b6b9b42929acc4af6442c48ba = $(`<div id="html_19f5952b6b9b42929acc4af6442c48ba" style="width: 100.0%; height: 100.0%;">The Warfield Theatre, Music Venue, Rock Club, Concert Hall</div>`)[0];
+            popup_38ef3587e29840ea9476564ec3e356d1.setContent(html_19f5952b6b9b42929acc4af6442c48ba);
+        
+
+        circle_marker_40b9e30a073140cf91de481d9d139d6b.bindPopup(popup_38ef3587e29840ea9476564ec3e356d1)
+        ;
+
+        
+    
+    
+            var circle_marker_35c7d8ba0cc14544b2487b1cd0b892ba = L.circleMarker(
+                [37.772381631964315, -122.41297163003809],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_27a81b3ef0cb4f0984ba6ed370f86877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_168462fa7c304774b30d02ea646f8750 = $(`<div id="html_168462fa7c304774b30d02ea646f8750" style="width: 100.0%; height: 100.0%;">Folsom Street Foundry, Event Space, Wine Bar, Art Gallery</div>`)[0];
+            popup_27a81b3ef0cb4f0984ba6ed370f86877.setContent(html_168462fa7c304774b30d02ea646f8750);
+        
+
+        circle_marker_35c7d8ba0cc14544b2487b1cd0b892ba.bindPopup(popup_27a81b3ef0cb4f0984ba6ed370f86877)
+        ;
+
+        
+    
+    
+            var circle_marker_577813f6d5244d9386d9027903dcd570 = L.circleMarker(
+                [37.779703999999995, -122.407605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_2ef5ff3044484255a1ba8376b43f77b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53903b596d5c48ea9e1a3efceb96c1f2 = $(`<div id="html_53903b596d5c48ea9e1a3efceb96c1f2" style="width: 100.0%; height: 100.0%;">1:AM Gallery, Art Gallery</div>`)[0];
+            popup_2ef5ff3044484255a1ba8376b43f77b0.setContent(html_53903b596d5c48ea9e1a3efceb96c1f2);
+        
+
+        circle_marker_577813f6d5244d9386d9027903dcd570.bindPopup(popup_2ef5ff3044484255a1ba8376b43f77b0)
+        ;
+
+        
+    
+    
+            var circle_marker_2b48ac62c4b04f678e41e9f656d5c550 = L.circleMarker(
+                [37.773503864314115, -122.4221104039168],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_5d7cd32750ea4e6a817eecc2fcc2888d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4823af7a1cb54f959b8cf99eb73415b6 = $(`<div id="html_4823af7a1cb54f959b8cf99eb73415b6" style="width: 100.0%; height: 100.0%;">Hotel Biron, Wine Bar, Art Gallery</div>`)[0];
+            popup_5d7cd32750ea4e6a817eecc2fcc2888d.setContent(html_4823af7a1cb54f959b8cf99eb73415b6);
+        
+
+        circle_marker_2b48ac62c4b04f678e41e9f656d5c550.bindPopup(popup_5d7cd32750ea4e6a817eecc2fcc2888d)
+        ;
+
+        
+    
+    
+            var circle_marker_551fce1b452c46b3b8aaf1d863360194 = L.circleMarker(
+                [37.70580712807523, -122.41742404073321],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_de41766f80d841e5bacee7d9b89a75a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b64b0fd42634c06af0be99edff9d3f0 = $(`<div id="html_7b64b0fd42634c06af0be99edff9d3f0" style="width: 100.0%; height: 100.0%;">The Great Dickens Christmas Fair, Theater</div>`)[0];
+            popup_de41766f80d841e5bacee7d9b89a75a9.setContent(html_7b64b0fd42634c06af0be99edff9d3f0);
+        
+
+        circle_marker_551fce1b452c46b3b8aaf1d863360194.bindPopup(popup_de41766f80d841e5bacee7d9b89a75a9)
+        ;
+
+        
+    
+    
+            var circle_marker_a9aa9f61cb6e4a67ab3a1a7567d2705a = L.circleMarker(
+                [37.754247398729575, -122.3895422981222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_add9d41bc54c4ddcb00fdc5137469381 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db5f92ca2bff48048046ce8776626ae1 = $(`<div id="html_db5f92ca2bff48048046ce8776626ae1" style="width: 100.0%; height: 100.0%;">Minnesota Street Projects Gallery, Art Gallery</div>`)[0];
+            popup_add9d41bc54c4ddcb00fdc5137469381.setContent(html_db5f92ca2bff48048046ce8776626ae1);
+        
+
+        circle_marker_a9aa9f61cb6e4a67ab3a1a7567d2705a.bindPopup(popup_add9d41bc54c4ddcb00fdc5137469381)
+        ;
+
+        
+    
+    
+            var circle_marker_b3d95f70cd904e02851220ca9aa683ef = L.circleMarker(
+                [37.785484199417546, -122.40245088761091],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_8732526fb2eb4c8685c5aff3c3418fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dea4a12c70f403eb07dff649b424581 = $(`<div id="html_5dea4a12c70f403eb07dff649b424581" style="width: 100.0%; height: 100.0%;">Yerba Buena Center for the Arts, Art Museum, Movie Theater, Art Gallery</div>`)[0];
+            popup_8732526fb2eb4c8685c5aff3c3418fe0.setContent(html_5dea4a12c70f403eb07dff649b424581);
+        
+
+        circle_marker_b3d95f70cd904e02851220ca9aa683ef.bindPopup(popup_8732526fb2eb4c8685c5aff3c3418fe0)
+        ;
+
+        
+    
+    
+            var circle_marker_286dac6fb7e8491b92678ced7a8ac4c9 = L.circleMarker(
+                [37.761485849394205, -122.42546703509268],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_bb80748625ce41a18902d4144aaa09dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bd177776a784d0ba724437940af99da = $(`<div id="html_1bd177776a784d0ba724437940af99da" style="width: 100.0%; height: 100.0%;">18 Reasons, Art Gallery, Non-Profit, Event Space</div>`)[0];
+            popup_bb80748625ce41a18902d4144aaa09dc.setContent(html_1bd177776a784d0ba724437940af99da);
+        
+
+        circle_marker_286dac6fb7e8491b92678ced7a8ac4c9.bindPopup(popup_bb80748625ce41a18902d4144aaa09dc)
+        ;
+
+        
+    
+    
+            var circle_marker_8f053ce6fca04d35a5ddf7a9467a1d50 = L.circleMarker(
+                [37.75692913029458, -122.38758909688723],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_6f79421f4f754e65b43879ae50570d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7386dc48b1d4393b310b1326b58a0a7 = $(`<div id="html_f7386dc48b1d4393b310b1326b58a0a7" style="width: 100.0%; height: 100.0%;">Orange Photography, Art Gallery, Office</div>`)[0];
+            popup_6f79421f4f754e65b43879ae50570d92.setContent(html_f7386dc48b1d4393b310b1326b58a0a7);
+        
+
+        circle_marker_8f053ce6fca04d35a5ddf7a9467a1d50.bindPopup(popup_6f79421f4f754e65b43879ae50570d92)
+        ;
+
+        
+    
+    
+            var circle_marker_751895f19b1c415193f20500951bf2a4 = L.circleMarker(
+                [37.78589423994824, -122.40089653026743],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_a69d5246ad22418d8a3a5efde2dd1eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01e6322bdbe54b9bac1158e2aeb8666f = $(`<div id="html_01e6322bdbe54b9bac1158e2aeb8666f" style="width: 100.0%; height: 100.0%;">San Francisco Museum of Modern Art, Art Museum</div>`)[0];
+            popup_a69d5246ad22418d8a3a5efde2dd1eb1.setContent(html_01e6322bdbe54b9bac1158e2aeb8666f);
+        
+
+        circle_marker_751895f19b1c415193f20500951bf2a4.bindPopup(popup_a69d5246ad22418d8a3a5efde2dd1eb1)
+        ;
+
+        
+    
+    
+            var circle_marker_0650a87238384e889ad6c1846cfe0465 = L.circleMarker(
+                [37.80086420601844, -122.3985555768013],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_ca3557b451854fe6957bc43913b0e4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47c91434e833482e8914dee782f5779f = $(`<div id="html_47c91434e833482e8914dee782f5779f" style="width: 100.0%; height: 100.0%;">Exploratorium, Science Museum</div>`)[0];
+            popup_ca3557b451854fe6957bc43913b0e4f1.setContent(html_47c91434e833482e8914dee782f5779f);
+        
+
+        circle_marker_0650a87238384e889ad6c1846cfe0465.bindPopup(popup_ca3557b451854fe6957bc43913b0e4f1)
+        ;
+
+        
+    
+    
+            var circle_marker_eaf20d096fb64600a0b71e922f034477 = L.circleMarker(
+                [37.77144023087182, -122.4683930662993],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_fc144874a9f542a9a791d2f13b8e9ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4228c80671f04271a31b21d698b10576 = $(`<div id="html_4228c80671f04271a31b21d698b10576" style="width: 100.0%; height: 100.0%;">de Young Museum, Art Museum, Sculpture Garden</div>`)[0];
+            popup_fc144874a9f542a9a791d2f13b8e9ea1.setContent(html_4228c80671f04271a31b21d698b10576);
+        
+
+        circle_marker_eaf20d096fb64600a0b71e922f034477.bindPopup(popup_fc144874a9f542a9a791d2f13b8e9ea1)
+        ;
+
+        
+    
+    
+            var circle_marker_3e1b5055ee0443028ee3275c77ba314b = L.circleMarker(
+                [37.80211223818411, -122.41896658916993],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_e0ba69f73ef64841ab2bed182c5bb9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c625958f8aa7452499207de7bb9d6943 = $(`<div id="html_c625958f8aa7452499207de7bb9d6943" style="width: 100.0%; height: 100.0%;">Lombard Street, Monument / Landmark, Road, Scenic Lookout</div>`)[0];
+            popup_e0ba69f73ef64841ab2bed182c5bb9f8.setContent(html_c625958f8aa7452499207de7bb9d6943);
+        
+
+        circle_marker_3e1b5055ee0443028ee3275c77ba314b.bindPopup(popup_e0ba69f73ef64841ab2bed182c5bb9f8)
+        ;
+
+        
+    
+    
+            var circle_marker_f2627ce6b8fd4360ae80626fdf4bdc85 = L.circleMarker(
+                [37.80288814426483, -122.44841247797012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_324d3f7b80404ade8bddc6b08e2d9136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6f06fa4695d4af5840e77646e31556d = $(`<div id="html_f6f06fa4695d4af5840e77646e31556d" style="width: 100.0%; height: 100.0%;">Palace of Fine Arts, Historic Site, Sculpture Garden, Public Art</div>`)[0];
+            popup_324d3f7b80404ade8bddc6b08e2d9136.setContent(html_f6f06fa4695d4af5840e77646e31556d);
+        
+
+        circle_marker_f2627ce6b8fd4360ae80626fdf4bdc85.bindPopup(popup_324d3f7b80404ade8bddc6b08e2d9136)
+        ;
+
+        
+    
+    
+            var circle_marker_0e7b1fbcdc3b47f49fe058978653f44f = L.circleMarker(
+                [37.769951624839024, -122.46643060712653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_1dcab81cc05c455eb2c1f394b660caae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58e70587445d4b4f9cfa719725102d3f = $(`<div id="html_58e70587445d4b4f9cfa719725102d3f" style="width: 100.0%; height: 100.0%;">California Academy of Sciences, Science Museum, Planetarium, Aquarium</div>`)[0];
+            popup_1dcab81cc05c455eb2c1f394b660caae.setContent(html_58e70587445d4b4f9cfa719725102d3f);
+        
+
+        circle_marker_0e7b1fbcdc3b47f49fe058978653f44f.bindPopup(popup_1dcab81cc05c455eb2c1f394b660caae)
+        ;
+
+        
+    
+    
+            var circle_marker_1bb1585b54a94ee9bdddfe03ece656f5 = L.circleMarker(
+                [37.809377088502615, -122.41599798202516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_e7aad5ba793a43398dac377f46668d0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f93a7756c2e1465db2fd9522a9b69517 = $(`<div id="html_f93a7756c2e1465db2fd9522a9b69517" style="width: 100.0%; height: 100.0%;">Musée Mécanique, Museum, Arcade</div>`)[0];
+            popup_e7aad5ba793a43398dac377f46668d0e.setContent(html_f93a7756c2e1465db2fd9522a9b69517);
+        
+
+        circle_marker_1bb1585b54a94ee9bdddfe03ece656f5.bindPopup(popup_e7aad5ba793a43398dac377f46668d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_8122664e351d42dd83c27db2bcf83632 = L.circleMarker(
+                [37.746868, -122.41951655],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_c7f59b971f9c4ac4bf86a015603cb83d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f845c94a54a649ca860d61a24aea08ea = $(`<div id="html_f845c94a54a649ca860d61a24aea08ea" style="width: 100.0%; height: 100.0%;">El Rio, Dive Bar, Music Venue</div>`)[0];
+            popup_c7f59b971f9c4ac4bf86a015603cb83d.setContent(html_f845c94a54a649ca860d61a24aea08ea);
+        
+
+        circle_marker_8122664e351d42dd83c27db2bcf83632.bindPopup(popup_c7f59b971f9c4ac4bf86a015603cb83d)
+        ;
+
+        
+    
+    
+            var circle_marker_2509b10c21654de0933cf010e6c0884c = L.circleMarker(
+                [37.81061783348044, -122.41106858016859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_b347d56738344bedbdcaf05098af1f0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9acdbec62ecc4a359352cb1faf03fa86 = $(`<div id="html_9acdbec62ecc4a359352cb1faf03fa86" style="width: 100.0%; height: 100.0%;">Sea Lions at Pier 39, Pier, Scenic Lookout, Monument / Landmark</div>`)[0];
+            popup_b347d56738344bedbdcaf05098af1f0a.setContent(html_9acdbec62ecc4a359352cb1faf03fa86);
+        
+
+        circle_marker_2509b10c21654de0933cf010e6c0884c.bindPopup(popup_b347d56738344bedbdcaf05098af1f0a)
+        ;
+
+        
+    
+    
+            var circle_marker_c0d7142d2f634dde960c41f4f5e402b6 = L.circleMarker(
+                [37.756207, -122.419026],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_53d8d466788d4da0b0572e62fc9d7388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e78661deddba42ea8e2611027090288b = $(`<div id="html_e78661deddba42ea8e2611027090288b" style="width: 100.0%; height: 100.0%;">Alamo Drafthouse Cinema – New Mission, Movie Theater</div>`)[0];
+            popup_53d8d466788d4da0b0572e62fc9d7388.setContent(html_e78661deddba42ea8e2611027090288b);
+        
+
+        circle_marker_c0d7142d2f634dde960c41f4f5e402b6.bindPopup(popup_53d8d466788d4da0b0572e62fc9d7388)
+        ;
+
+        
+    
+    
+            var circle_marker_c1f5ce5621a144559c8e86de73f423f7 = L.circleMarker(
+                [37.778081009831965, -122.42019437756615],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_2afca42a3201417ba3c003118cb7f508 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ced88203d9984bf5b581a84cdee04455 = $(`<div id="html_ced88203d9984bf5b581a84cdee04455" style="width: 100.0%; height: 100.0%;">Louise M. Davies Symphony Hall, Concert Hall, Performing Arts Venue, Music Venue</div>`)[0];
+            popup_2afca42a3201417ba3c003118cb7f508.setContent(html_ced88203d9984bf5b581a84cdee04455);
+        
+
+        circle_marker_c1f5ce5621a144559c8e86de73f423f7.bindPopup(popup_2afca42a3201417ba3c003118cb7f508)
+        ;
+
+        
+    
+    
+            var circle_marker_ac48e9a859c1494da32e0af64f9b9dbf = L.circleMarker(
+                [37.7619917176244, -122.43496924638748],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_8591d2350f0041cb9fa3a60b42073c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca4394f961f84a0a80141f4e3ef02890 = $(`<div id="html_ca4394f961f84a0a80141f4e3ef02890" style="width: 100.0%; height: 100.0%;">Castro Theatre, Indie Movie Theater, Historic Site, Theater</div>`)[0];
+            popup_8591d2350f0041cb9fa3a60b42073c4f.setContent(html_ca4394f961f84a0a80141f4e3ef02890);
+        
+
+        circle_marker_ac48e9a859c1494da32e0af64f9b9dbf.bindPopup(popup_8591d2350f0041cb9fa3a60b42073c4f)
+        ;
+
+        
+    
+    
+            var circle_marker_957ea1f25ab94855bce8e2d6df4a4a98 = L.circleMarker(
+                [37.80124775736157, -122.45845023045179],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_99272d8a3d49485b8e4ced15f11af95d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e88985307cf340c1b55268f1d9d96bf4 = $(`<div id="html_e88985307cf340c1b55268f1d9d96bf4" style="width: 100.0%; height: 100.0%;">The Walt Disney Family Museum, Museum</div>`)[0];
+            popup_99272d8a3d49485b8e4ced15f11af95d.setContent(html_e88985307cf340c1b55268f1d9d96bf4);
+        
+
+        circle_marker_957ea1f25ab94855bce8e2d6df4a4a98.bindPopup(popup_99272d8a3d49485b8e4ced15f11af95d)
+        ;
+
+        
+    
+    
+            var circle_marker_4c8ef71ce7a149d49e7832b495851be7 = L.circleMarker(
+                [37.77556099469608, -122.43771921454709],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_d7d8c3e628f14ec8852217026b6a6785 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1de78fbec75246ceb7b325fc3c9f5184 = $(`<div id="html_1de78fbec75246ceb7b325fc3c9f5184" style="width: 100.0%; height: 100.0%;">The Independent, Rock Club, Music Venue, Concert Hall</div>`)[0];
+            popup_d7d8c3e628f14ec8852217026b6a6785.setContent(html_1de78fbec75246ceb7b325fc3c9f5184);
+        
+
+        circle_marker_4c8ef71ce7a149d49e7832b495851be7.bindPopup(popup_d7d8c3e628f14ec8852217026b6a6785)
+        ;
+
+        
+    
+    
+            var circle_marker_5915b4835af141edbc53372e1a24cac7 = L.circleMarker(
+                [37.7564875849988, -122.41936479238493],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_eda0ad025d474f5bb79480d3af3c0a48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b136c5ff62341028d408de5a971ed61 = $(`<div id="html_8b136c5ff62341028d408de5a971ed61" style="width: 100.0%; height: 100.0%;">Foreign Cinema, New American Restaurant, Movie Theater</div>`)[0];
+            popup_eda0ad025d474f5bb79480d3af3c0a48.setContent(html_8b136c5ff62341028d408de5a971ed61);
+        
+
+        circle_marker_5915b4835af141edbc53372e1a24cac7.bindPopup(popup_eda0ad025d474f5bb79480d3af3c0a48)
+        ;
+
+        
+    
+    
+            var circle_marker_acb9e1be9c4b43c186bfbb7bfe7cc861 = L.circleMarker(
+                [37.78506320154073, -122.50020187321535],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_d129279734b1433f98f6cd965a1703ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3ac1c089c354a17a962d008c697b295 = $(`<div id="html_c3ac1c089c354a17a962d008c697b295" style="width: 100.0%; height: 100.0%;">Legion of Honor, Art Museum, Art Gallery</div>`)[0];
+            popup_d129279734b1433f98f6cd965a1703ed.setContent(html_c3ac1c089c354a17a962d008c697b295);
+        
+
+        circle_marker_acb9e1be9c4b43c186bfbb7bfe7cc861.bindPopup(popup_d129279734b1433f98f6cd965a1703ed)
+        ;
+
+        
+    
+    
+            var circle_marker_d0683a77a3f34f3196d0ffb11d42fb02 = L.circleMarker(
+                [37.802689034023814, -122.40588034924305],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_860c231786c0410b88fb03e6cdc44150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_658adfbb47024192bffdd2c991998f37 = $(`<div id="html_658adfbb47024192bffdd2c991998f37" style="width: 100.0%; height: 100.0%;">Coit Tower, Monument / Landmark, Scenic Lookout</div>`)[0];
+            popup_860c231786c0410b88fb03e6cdc44150.setContent(html_658adfbb47024192bffdd2c991998f37);
+        
+
+        circle_marker_d0683a77a3f34f3196d0ffb11d42fb02.bindPopup(popup_860c231786c0410b88fb03e6cdc44150)
+        ;
+
+        
+    
+    
+            var circle_marker_4c36e0a20d5c4bd59a412d8c3d9e6c9d = L.circleMarker(
+                [37.780177691822274, -122.41650543857212],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_32ecd9302305463a91bbfdeaae079c9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eee641900f24464905890404a019bd6 = $(`<div id="html_0eee641900f24464905890404a019bd6" style="width: 100.0%; height: 100.0%;">Asian Art Museum, Art Museum</div>`)[0];
+            popup_32ecd9302305463a91bbfdeaae079c9c.setContent(html_0eee641900f24464905890404a019bd6);
+        
+
+        circle_marker_4c36e0a20d5c4bd59a412d8c3d9e6c9d.bindPopup(popup_32ecd9302305463a91bbfdeaae079c9c)
+        ;
+
+        
+    
+    
+            var circle_marker_73f1f2aaa5094d3dbb11f09cf129478f = L.circleMarker(
+                [37.77934769245658, -122.41459250450134],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_dc14c1197ec14bb99087ddf7b2b2ab56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a5c717e782741758f8db17f5658238a = $(`<div id="html_2a5c717e782741758f8db17f5658238a" style="width: 100.0%; height: 100.0%;">SHN Orpheum Theatre, Theater, Indie Theater, General Entertainment</div>`)[0];
+            popup_dc14c1197ec14bb99087ddf7b2b2ab56.setContent(html_2a5c717e782741758f8db17f5658238a);
+        
+
+        circle_marker_73f1f2aaa5094d3dbb11f09cf129478f.bindPopup(popup_dc14c1197ec14bb99087ddf7b2b2ab56)
+        ;
+
+        
+    
+    
+            var circle_marker_f60985a09fe1463d8f6ce91effe6e42e = L.circleMarker(
+                [37.78042984007032, -122.51285084626193],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_0880dba6b435458086837363fe4721cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0de72651552e4a06998d43be3a6ea162 = $(`<div id="html_0de72651552e4a06998d43be3a6ea162" style="width: 100.0%; height: 100.0%;">Sutro Baths, Historic Site, Scenic Lookout, Trail</div>`)[0];
+            popup_0880dba6b435458086837363fe4721cb.setContent(html_0de72651552e4a06998d43be3a6ea162);
+        
+
+        circle_marker_f60985a09fe1463d8f6ce91effe6e42e.bindPopup(popup_0880dba6b435458086837363fe4721cb)
+        ;
+
+        
+    
+    
+            var circle_marker_c2100d56300f47c5b555d408c1c7d51d = L.circleMarker(
+                [37.77601044563292, -122.43317929637186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_597368d472c24e3a90fccea22ff61e61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5396e00f22a4d2d9db242b75e7c17d2 = $(`<div id="html_f5396e00f22a4d2d9db242b75e7c17d2" style="width: 100.0%; height: 100.0%;">Painted Ladies, Historic Site, Park</div>`)[0];
+            popup_597368d472c24e3a90fccea22ff61e61.setContent(html_f5396e00f22a4d2d9db242b75e7c17d2);
+        
+
+        circle_marker_c2100d56300f47c5b555d408c1c7d51d.bindPopup(popup_597368d472c24e3a90fccea22ff61e61)
+        ;
+
+        
+    
+    
+            var circle_marker_7149fc9b7acb40ce8753a70972b68bcd = L.circleMarker(
+                [37.784079069766605, -122.43300234064807],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_6360f28403d5402bbeced8e455e58444);
+        
+    
+        var popup_592bf10c0db04bca89d36288561b9003 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_986b65df7cd046858a740f03e8a1dcce = $(`<div id="html_986b65df7cd046858a740f03e8a1dcce" style="width: 100.0%; height: 100.0%;">The Fillmore, Music Venue, Rock Club</div>`)[0];
+            popup_592bf10c0db04bca89d36288561b9003.setContent(html_986b65df7cd046858a740f03e8a1dcce);
+        
+
+        circle_marker_7149fc9b7acb40ce8753a70972b68bcd.bindPopup(popup_592bf10c0db04bca89d36288561b9003)
+        ;
+
+        
+    
+</script>
